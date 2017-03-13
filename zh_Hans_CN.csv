@@ -2066,6 +2066,12 @@ Password,密码,module,Magento_Customer
 Gender,性别,module,Magento_Customer
 Name,名字,module,Magento_Customer
 "Tax/VAT number","增值税/VAT 号码",module,Magento_Customer
+"No Password","无密码",module,Magento_Customer
+"Weak","弱",module,Magento_Customer
+"Medium","中等",module,Magento_Customer
+"Strong","强",module,Magento_Customer
+"Very Stong","非常强",module,Magento_Customer
+"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","长度最少必须等于式大于%1，空格将会被忽视。",module,Magento_Customer
 "Cannot switch into given mode ""%1""",不能切换到给定的模式“%1”,module,Magento_Deploy
 "Format for IDE '%1' is not supported","不支持格式为 IDE '%1'",module,Magento_Developer
 "Client side less compilation",放空则允许从任何位置访问。,module,Magento_Developer
@@ -7658,6 +7664,7 @@ Delete,删除,module,Magento_Wishlist
 "Your points balance will expire in %1 days.","你的紅利將會於%1日內過期",module,Mirasvit_Rewards
 "Visit My Reward Points Section","跳至的的紅利點數",module,Mirasvit_Rewards
 "Transactions History","消費記錄",module,Mirasvit_Rewards
+“立即结帐，并为此订单赚取<b>％1 </ b>”，“立即结帐，将可得到<b>％1 </ b>。”，模块，Mirasvit_Rewards
 "There are no Transactions.","你沒有消費記錄",module,Mirasvit_Rewards"There are no Transactions.","你沒有消費記錄",module,Mirasvit_Rewards
 "Insufficient funds in the account","帐户余额不足",module,Magedelight_Cyber​​sourcesa
 "General system failure","系统处理失败，请稍后再试",module,Magedelight_Cyber​​sourcesa
