@@ -2071,7 +2071,8 @@ Name,名字,module,Magento_Customer
 "Medium","中等",module,Magento_Customer
 "Strong","强",module,Magento_Customer
 "Very Stong","非常强",module,Magento_Customer
-"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","长度最少必须等于式大于%1，空格将会被忽视。",module,Magento_Customer
+"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","长度最少必须等于或大于%1，空格将会被忽视。",module,Magento_Customer
+"This is a required field.","必须填写",module,Magento_Customer
 "Cannot switch into given mode ""%1""",不能切换到给定的模式“%1”,module,Magento_Deploy
 "Format for IDE '%1' is not supported","不支持格式为 IDE '%1'",module,Magento_Developer
 "Client side less compilation",放空则允许从任何位置访问。,module,Magento_Developer
