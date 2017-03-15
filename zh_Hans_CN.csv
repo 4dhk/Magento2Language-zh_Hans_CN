@@ -2889,7 +2889,7 @@ Total,总额,module,Magento_Multishipping
 "Select Addresses",选择地址,module,Magento_Multishipping
 "Shipping Information",运输方式,module,Magento_Multishipping
 "Billing Information",订单总览,module,Magento_Multishipping
-"Place Order",对不起，暂无报价可供此订单现在。,module,Magento_Multishipping
+"Place Order","提交订单",module,Magento_Multishipping
 "Order Success",订单成功,module,Magento_Multishipping
 "Default Billing",默认账单,module,Magento_Multishipping
 "Default Shipping",默认发货,module,Magento_Multishipping
@@ -3494,7 +3494,7 @@ Edit,编辑,module,Magento_Paypal
 "Edit Payment Information",编辑付款信息,module,Magento_Paypal
 "Items in Your Shopping Cart",您的购物车中的商品,module,Magento_Paypal
 "Edit Shopping Cart",编辑购物车,module,Magento_Paypal
-"Place Order",对不起，暂无报价可供此订单现在。,module,Magento_Paypal
+"Place Order","提交订单",module,Magento_Paypal
 "Submitting order information...",提交订单信息。。。,module,Magento_Paypal
 Item,产品,module,Magento_Paypal
 Price,价格,module,Magento_Paypal
@@ -5754,11 +5754,11 @@ Remove,删除,theme,frontend/Magento/luma
 "Shop By",清除全部,theme,frontend/Magento/luma
 "Clear All",清除全部,theme,frontend/Magento/luma
 "Shopping Options",配送方式选择,theme,frontend/Magento/luma
-"Place Order",下订单,module,Magento_Authorizenet
+"Place Order","提交订单",module,Magento_Authorizenet
 "Credit Card Information",信用卡信息,module,Magento_Braintree
 "What is this?",这是什么？,module,Magento_Braintree
 "Save for later use.",保存供以后使用。,module,Magento_Braintree
-"Place Order",对不起，暂无报价可供此订单现在。,module,Magento_Braintree
+"Place Order","提交订单",module,Magento_Braintree
 "Attention: Captcha is case sensitive.","注意: 验证码是区分大小写。",module,Magento_Captcha
 "Payment Transaction Failed Reminder",付款交易记录失败提醒,module,Magento_Checkout
 "Payment Transaction Failed",付款交易记录失败,module,Magento_Checkout
@@ -5797,9 +5797,21 @@ Remove,删除,module,Magento_Checkout
 "Payment Information",支付信息,module,Magento_Checkout
 "No Payment method available.",没有可用的付款方法。,module,Magento_Checkout
 "You can track your order status by creating an account.",通过创建一个帐户跟踪您的订单状态。,module,Magento_Checkout
-"Place Order",对不起，暂无报价可供此订单现在。,module,Magento_Checkout
-"Forgot an Item?",消除一个商品吗?,module,Magento_Checkout
-"Edit Your Cart",编辑您的购物车,module,Magento_Checkout
+"Place Order","提交订单",module,Magento_Checkout
+"Forgot an item?","忘了增加货物吗?",module,Magento_Checkout
+"Purchase over $2000.0 for free shipping.(Downtown Only)","购物满$2000将可享有免费送货(偏远地区除外)!",module,Magento_Checkout
+"Please specify the shipping address to see available options.","请选填写地址，然后选择运送方法。",module,Magento_Checkout
+"EF Locker","顺便智能柜",module,Magento_Checkout
+"SF Store","顺丰站",module,Magento_Checkout
+"Service Type","服务种类",module,Magento_Checkout
+"Reset","重设",module,Magento_Checkout
+"District","地区",module,Magento_Checkout
+"Village / Town","城市",module,Magento_Checkout
+"S.F express Store","顺丰中心",module,Magento_Checkout
+"Outside Hong Kong","香港以外地址",module,Magento_Checkout
+"Hong Kong Address","香港地址",module,Magento_Checkout
+"Delivery Methods","运送方法",module,Magento_Checkout
+"Edit your cart",编辑您的购物车,module,Magento_Checkout
 "Ship Here",送货到这里,module,Magento_Checkout
 "Ship To:",送货到:,module,Magento_Checkout
 edit,编辑,module,Magento_Checkout
@@ -5861,9 +5873,9 @@ Delete,删除,module,Magento_GiftMessage
 "To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:",要开始接收时事通讯，必须首先通过点击下面的链接确认您的订阅:,module,Magento_Newsletter
 "You have been successfully subscribed to our newsletter.",您已成功订阅我们的时事通讯。,module,Magento_Newsletter
 "You have been unsubscribed from the newsletter.",你已经取消订阅新闻通讯。,module,Magento_Newsletter
-"Place Order",对不起，暂无报价可供此订单现在。,module,Magento_OfflinePayments
-"Place Order",提交订单,module,Magento_Payment
-"Forgot an Item?",忘了一个项目吗?,module,Magento_Payment
+"Place Order","提交订单",module,Magento_OfflinePayments
+"Place Order","提交订单",module,Magento_Payment
+"Forgot an item?","忘了增加货物吗?",module,Magento_Payment
 "Edit Your Cart",编辑您的购物车,module,Magento_Payment
 "Sign a billing agreement to streamline further purchases with PayPal.",签署一项协议，简化使用Paypal支付的流程。,module,Magento_Paypal
 "Continue to PayPal",使用Paypal继续,module,Magento_Paypal
@@ -7667,6 +7679,14 @@ Delete,删除,module,Magento_Wishlist
 "Transactions History","消費記錄",module,Mirasvit_Rewards
 “立即结帐，并为此订单赚取<b>％1</b>”,“立即结帐，将可得到<b>％1</b>。”,module,Mirasvit_Rewards
 "There are no Transactions.","你沒有消費記錄",module,Mirasvit_Rewards"There are no Transactions.","你沒有消費記錄",module,Mirasvit_Rewards
+"You received %1 for signing up","注册成功，得到%1",module,Mirasvit_Rewards
+"You received %1 for sending this product","分享成功，得到%1",module,Mirasvit_Rewards
+"You received %1 for sign up for newsletter","订阅成功，得到%1",module,Mirasvit_Rewards
+"You will receive %1 after approving of this tag","标签核准后，将得到%1",module,Mirasvit_Rewards
+"You will receive %1 after approving of this review","评论核准后，将得到%1",module,Mirasvit_Rewards
+"You received %1 for sign up of referral customer.","介绍的朋友成功登记，得到%1",module,Mirasvit_Rewards
+"You received %1 for order of referral customer.","介绍的朋友成功购物，得到%1",module,Mirasvit_Rewards
+"Happy birthday! You received %1.","祝你生日快乐，送给你%1",module,Mirasvit_Rewards
 "Insufficient funds in the account","帐户余额不足",module,Magedelight_Cyber​​sourcesa
 "General system failure","系统处理失败，请稍后再试",module,Magedelight_Cyber​​sourcesa
 "Go To Product","前往产品",module,WeltPixel_Quickview
