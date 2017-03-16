@@ -7715,3 +7715,4 @@ Delete,删除,module,Magento_Wishlist
 "Purchased Product Qty","已买产品数量",module,Magestore_Membership
 "Saved Total","已节省",module,Magestore_Membership
 "Renew Now","现在更新",module,Magestore_Membership
+"You do not sign up to any packages.","你并没有会籍。",module,Magestore_Membership
