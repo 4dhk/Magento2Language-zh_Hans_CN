@@ -7687,6 +7687,20 @@ Delete,删除,module,Magento_Wishlist
 "You received %1 for sign up of referral customer.","介绍的朋友成功登记，得到%1",module,Mirasvit_Rewards
 "You received %1 for order of referral customer.","介绍的朋友成功购物，得到%1",module,Mirasvit_Rewards
 "Happy birthday! You received %1.","祝你生日快乐，送给你%1",module,Mirasvit_Rewards
+"Points Summary","点数总结",module,Mirasvit_Rewards
+"You have <b>%1</b> in your account.","你帐号共有 <b>%1</b> 。",module,Mirasvit_Rewards
+"You have","你帐号共有",module,Mirasvit_Rewards
+"Reward Points","红利点数",module,Mirasvit_Rewards
+"You have <b>%1</b> available.","你共有 <b>%1</b> 可用.",module,Mirasvit_Rewards
+"Enter amount of points to spend:","请输入要用的点数:",module,Mirasvit_Rewards
+"Enter amount of points to spend","请输入要用的点数",module,Mirasvit_Rewards
+"Use maximum %1","全部 %1点数",module,Mirasvit_Rewards
+"Use maximum","全部点数",module,Mirasvit_Rewards
+"available.","可用.",module,Mirasvit_Rewards
+"Apply Points","使用点数",module,Mirasvit_Rewards
+"Apply","使用",module,Mirasvit_Rewards
+"Cancel Points","取消使用点数",module,Mirasvit_Rewards
+"Cancel","取消",module,Mirasvit_Rewards
 "Insufficient funds in the account","帐户余额不足",module,Magedelight_Cyber​​sourcesa
 "General system failure","系统处理失败，请稍后再试",module,Magedelight_Cyber​​sourcesa
 "Go To Product","前往产品",module,WeltPixel_Quickview
