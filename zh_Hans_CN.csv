@@ -7706,6 +7706,13 @@ Delete,删除,module,Magento_Wishlist
 "Apply","使用",module,Mirasvit_Rewards
 "Cancel Points","取消使用点数",module,Mirasvit_Rewards
 "Cancel","取消",module,Mirasvit_Rewards
+"You Earn","购取",module,Mirasvit_Rewards
+"You Spend","使用",module,Mirasvit_Rewards
+"Customer signs up in store","客户注册帐号",module,Mirasvit_Rewards
+"Customer emails product's link to a friend","客户发送产品连结给朋友",module,Mirasvit_Rewards
+"Newsletter sign up","订阅通讯",module,Mirasvit_Rewards
+"Customer adds tag to a product","客户为产品加标签",module,Mirasvit_Rewards
+"Customer writes a product's review","客户编写产品评论",module,Mirasvit_Rewards
 "Insufficient funds in the account","帐户余额不足",module,Magedelight_Cyber​​sourcesa
 "General system failure","系统处理失败，请稍后再试",module,Magedelight_Cyber​​sourcesa
 "Go To Product","前往产品",module,WeltPixel_Quickview
