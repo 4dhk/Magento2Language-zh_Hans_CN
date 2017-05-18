@@ -45,7 +45,7 @@ Close,关闭,module,Magento_AdminNotification
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.",编译允许资源列表时出错。可以从异常日志查找更多可用信息。 ,module,Magento_Authorization
 "You created the order.",您已创建的订单。 ,module,Magento_Authorizenet
 "Order saving error: %1","订单保存错误: %1",module,Magento_Authorizenet
-"Please choose a payment method.",请选择支付方式,module,Magento_Authorizenet
+"Please choose a payment method.",请选择付款方法,module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.",商户邮件,module,Magento_Authorizenet
 "Credit Card: xxxx-%1",信用卡：xxxx-%1,module,Magento_Authorizenet
 "amount %1","金额 %1",module,Magento_Authorizenet
@@ -95,7 +95,7 @@ Orders,订单,module,Magento_Backend
 Amounts,金额,module,Magento_Backend
 Bestsellers,畅销品,module,Magento_Backend
 "Most Viewed Products",查看最多的产品,module,Magento_Backend
-"New Customers",新客户,module,Magento_Backend
+"New Customers",新会员,module,Magento_Backend
 Customers,客户,module,Magento_Backend
 Customer,客户,module,Magento_Backend
 Guest,访客,module,Magento_Backend
@@ -625,7 +625,7 @@ Quantity,数量,module,Magento_CatalogInventory
 "Product availability",产品的可用性,module,Magento_CatalogInventory
 "Product Name",产品名称,module,Magento_CatalogInventory
 Qty,数量,module,Magento_CatalogInventory
-"We don't have as many ""%1"" as you requested.","""%1"" 暂没有那么多存货。",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested.","""%1"" 存货量不足。",module,Magento_CatalogInventory
 "Delete Rule",删除规则,module,Magento_CatalogRule
 "Are you sure you want to do this?",您确认要这么做么？ ,module,Magento_CatalogRule
 Reset,重置,module,Magento_CatalogRule
@@ -707,7 +707,7 @@ Search,搜索,module,Magento_CatalogSearch
 "Modify your search.",修改您的搜索。 ,module,Magento_CatalogSearch
 name,名字,module,Magento_CatalogSearch
 "Don't see what you're looking for?",找不到想找的的东西？ ,module,Magento_CatalogSearch
-"Your search returned no results.",您的搜索没有任何结果。 ,module,Magento_CatalogSearch
+"Your search returned no results.",找不到相关产品。 ,module,Magento_CatalogSearch
 "Create Permanent Redirect for old URL",为旧网址创建永久重定向,module,Magento_CatalogUrlRewrite
 "Conditions Combination",条件组合,module,Magento_CatalogWidget
 "Product Attribute",产品属性,module,Magento_CatalogWidget
@@ -850,7 +850,8 @@ Import,导入,module,Magento_Catalog
 "ALL GROUPS",有货,module,Magento_Catalog
 "Add Price",添加价格,module,Magento_Catalog
 "Default Values",默认值,module,Magento_Catalog
-"Related Products",超售,module,Magento_Catalog
+"Related Products",想关产品,module,Magento_Catalog
+"Related Products:",想关产品:,module,Magento_Catalog
 Up-sells,向上销售,module,Magento_Catalog
 Cross-sells,交叉销售,module,Magento_Catalog
 "Size for %1","大小为 %1 的",module,Magento_Catalog
@@ -1025,7 +1026,7 @@ Category,产品类别,module,Magento_Catalog
 "Please enter a number 0 or greater in this field.",请在该字段中输入有效数字。 ,module,Magento_Catalog
 "The value of attribute ""%1"" must be set","""%1""属性的值必须设置",module,Magento_Catalog
 "SKU length should be %1 characters maximum.","SKU 长度应该是最多 %1 个字符。",module,Magento_Catalog
-"Please enter a valid number in this field.",请在此字段中输入一个有效的数字。 ,module,Magento_Catalog
+"Please enter a valid number in this field.",请输入有效数字。 ,module,Magento_Catalog
 "We found a duplicate website, tier price, customer group and quantity.","我们发现重复的网站、 层价格、 客户组和数量。",module,Magento_Catalog
 "Invalid option id %1","无效的选项 id %1",module,Magento_Catalog
 "Can not create attribute set based on non product attribute set.",不能创建基于非产品属性集的属性集。 ,module,Magento_Catalog
@@ -1247,8 +1248,8 @@ Role,职能,module,Magento_Catalog
 "Regular Price",定期的价格,module,Magento_Catalog
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","买%2 每个%1 和<strong class=""benefit""> save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>",module, Magento_Catalog
 "Buy %1 for %2 each","购买每个 %2 的 %1",module,Magento_Catalog
-"Shop By","分类筛选",module,Magento_Catalog
-"Filter By","分类筛选",module,Magento_Catalog
+"Shop By","筛选条件",module,Magento_Catalog
+"Filter By","筛选条件",module,Magento_Catalog
 "Shopping Options",购物的选项,module,Magento_Catalog
 "Compare Products",比较产品,module,Magento_Catalog
 "Print This Page",打印此页,module,Magento_Catalog
@@ -1266,11 +1267,12 @@ Next,下一个,module,Magento_Catalog
 "We can't find products matching the selection.",找不到相关产品。,module,Magento_Catalog
 "Learn More",了解更多,module,Magento_Catalog
 "Add to Compare",添加并比较,module,Magento_Catalog
-"We found other products you might like!",我们发现您可能会喜欢其他产品!,module,Magento_Catalog
+"We found other products you might like!",您可能有兴趣:,module,Magento_Catalog
 "More Choices:",更多的选择:,module,Magento_Catalog
-"Check items to add to the cart or",检查加入购物车的物品或,module,Magento_Catalog
+"Check items to add to the cart or",相关产品或:,module,Magento_Catalog
+"Check items to add to the cart",相关产品:,module,Magento_Catalog
 "select all",全选,module,Magento_Catalog
-"Items %1-%2 of %3","产品 %1-%2 共 %3",module,Magento_Catalog
+"Items %1-%2 of %3","%1-%2 件产品，共 %3 件",module,Magento_Catalog
 "%1 Item","%1 件产品",module,Magento_Catalog
 "%1 Items","%1 件产品",module,Magento_Catalog
 Show,显示,module,Magento_Catalog
@@ -1316,9 +1318,9 @@ Sales,销售,module,Magento_CheckoutAgreements
 Automatically,自动,module,Magento_CheckoutAgreements
 Manually,手动,module,Magento_CheckoutAgreements
 "Please agree to all the terms and conditions before placing the order.",请在下订单前同意所有的条款和条件。 ,module,Magento_CheckoutAgreements
-"Unable to save checkout agreement %1","无法保存结帐协议 %1",module,Magento_CheckoutAgreements
-"Unable to remove checkout agreement %1","无法删除结帐协议 %1",module,Magento_CheckoutAgreements
-"Checkout agreement with specified ID ""%1"" not found.","结帐协议具有指定 ID""%1""找不到。",module,Magento_CheckoutAgreements
+"Unable to save checkout agreement %1","无法保存结账协议 %1",module,Magento_CheckoutAgreements
+"Unable to remove checkout agreement %1","无法删除结账协议 %1",module,Magento_CheckoutAgreements
+"Checkout agreement with specified ID ""%1"" not found.","结账协议具有指定 ID""%1""找不到。",module,Magento_CheckoutAgreements
 "Shopping Cart",购物车,module,Magento_Checkout
 "Invalid method: %1",支付失败邮件副本发送方式,module,Magento_Checkout
 City,城市,module,Magento_Checkout
@@ -1335,19 +1337,19 @@ State/Province,地区,module,Magento_Checkout
 "You added %1 to your shopping cart.","您已添加 %1 到您的购物车",module,Magento_Checkout
 "We can't add this item to your shopping cart right now.",我们这个项目不能添加到您的购物车现在。 ,module,Magento_Checkout
 "Out of stock",缺货,module,Magento_Checkout
-"We can't find the quote item.",我们找不到引用项。 ,module,Magento_Checkout
+"We can't find the quote item.",我们找不到该产品。 ,module,Magento_Checkout
 "We cannot configure the product.",我们不能配置该产品。 ,module,Magento_Checkout
-"You used coupon code ""%1"".","您使用优惠券代码""%1""。",module,Magento_Checkout
-"The coupon code ""%1"" is not valid.",编辑项目参数,module,Magento_Checkout
-"You canceled the coupon code.",您取消的优惠券代码。 ,module,Magento_Checkout
-"We cannot apply the coupon code.",我们不能适用的优惠券代码。 ,module,Magento_Checkout
+"You used coupon code ""%1"".","您使用优惠码""%1""。",module,Magento_Checkout
+"The coupon code ""%1"" is not valid.","优惠码 ""%1"" 无效",module,Magento_Checkout
+"You canceled the coupon code.",您取消的优惠码代码。 ,module,Magento_Checkout
+"We cannot apply the coupon code.",我们不能适用的优惠码代码。 ,module,Magento_Checkout
 "We can't remove the item.",我们不能删除该项目。 ,module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 已更新您的购物车中。",module,Magento_Checkout
 "We can't update the item right now.",我们现在不能更新该项目。 ,module,Magento_Checkout
 "We can't update the shopping cart.",我们不能更新购物车。 ,module,Magento_Checkout
-"One-page checkout is turned off.",单页结帐处于关闭状态。 ,module,Magento_Checkout
-"Guest checkout is disabled.",禁用了来宾结帐。 ,module,Magento_Checkout
-Checkout,结帐,module,Magento_Checkout
+"One-page checkout is turned off.",单页结账处于关闭状态。 ,module,Magento_Checkout
+"Guest checkout is disabled.",禁用了来宾结账。 ,module,Magento_Checkout
+Checkout,结账,module,Magento_Checkout
 "Page not found.",找不到网页。 ,module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.",请在下订单前同意所有的条款和条件。 ,module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.",在处理您的订单时，出了错。请稍后再试。 ,module,Magento_Checkout
@@ -1370,7 +1372,7 @@ Checkout,结帐,module,Magento_Checkout
 "The customer address is not valid.",客户地址不是有效的。 ,module,Magento_Checkout
 "Invalid shipping method",无效的运输方法,module,Magento_Checkout
 "There are more than one shipping addresses.",有多个送货地址。 ,module,Magento_Checkout
-"Sorry, guest checkout is not available.",对不起，客人结帐不是可用的。 ,module,Magento_Checkout
+"Sorry, guest checkout is not available.",对不起，客人结账不是可用的。 ,module,Magento_Checkout
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","请点击您的电子邮件确认连结或<a href=""%1"">点击此处</a>重新送出确认连结。",module,Magento_Checkout
 "Load customer quote error",加载客户报价单错误,module,Magento_Checkout
 "Error message!",错误消息!,module,Magento_Checkout
@@ -1382,13 +1384,13 @@ Message,信息,module,Magento_Checkout
 "Apply Discount Code","使用电子优惠码？",module,Magento_Checkout
 "Enter discount code",请输入电子优惠码,module,Magento_Checkout
 "Apply Discount",使用优惠,module,Magento_Checkout
-"Cancel Coupon",取消优惠券,module,Magento_Checkout
+"Cancel Coupon",取消优惠码,module,Magento_Checkout
 "Shopping Cart Items",购物车里的产品,module,Magento_Checkout
 Item,产品,module,Magento_Checkout
 Price,价格,module,Magento_Checkout
 Qty,数量,module,Magento_Checkout
 Subtotal,小计,module,Magento_Checkout
-"Continue Shopping",继续购物,module,Magento_Checkout
+"Continue Shopping","继续购物",module,Magento_Checkout
 "Clear Shopping Cart",没有付款方式,module,Magento_Checkout
 "Update Shopping Cart",更新购物车,module,Magento_Checkout
 "Update Cart",更新购物车,module,Magento_Checkout
@@ -1396,22 +1398,22 @@ Subtotal,小计,module,Magento_Checkout
 "What's this?",这是什么？ ,module,Magento_Checkout
 "Edit item parameters",修改参数,module,Magento_Checkout
 Edit,编辑,module,Magento_Checkout
-"Remove item",删除项目,module,Magento_Checkout
-"You have no items in your shopping cart.",您的购物车中没有任何物品。 ,module,Magento_Checkout
+"Remove item",删除产品,module,Magento_Checkout
+"You have no items in your shopping cart.",您的购物车中没有任何产品。 ,module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","按<a href=""%1""> 此处</a> 继续购物。",module ,Magento_Checkout
 "Estimate Tax",估计税,module,Magento_Checkout
 "Estimate Shipping and Tax",估计运费和税,module,Magento_Checkout
 "Excl. Tax",不包括消费税,module,Magento_Checkout
 Loading...,加载.....,module,Magento_Checkout
 "Order #","订单编号",module,Magento_Checkout
-"Proceed to Checkout",结帐,module,Magento_Checkout
+"Proceed to Checkout",结账,module,Magento_Checkout
 "Product Name",产品名称,module,Magento_Checkout
 "Incl. Tax",含税,module,Magento_Checkout
 "Your order number is: %1.","您的订单编号是: %1。",module,Magento_Checkout
 "Your order # is: <span>%1</span>.","您的订单号是: <span>%1</span>。",module,Magento_Checkout
 "We'll email you an order confirmation with details and tracking info.",我们会尽快处理阁下的订单，请到“订单纪录”中查阅订单状态。 ,module,Magento_Checkout
 "Discount Total",折扣总和,module,Magento_Checkout
-"Are you sure you would like to remove this item from the shopping cart?","碓定要将此产品从购物车中移除？",module,Magento_Checkout
+"Are you sure you would like to remove this item from the shopping cart?","确定要将此产品从购物车中移除？",module,Magento_Checkout
 "Discount Total",折扣总和,module,Magento_SalesRule
 "Coupon Discount",优惠劵,module,Magento_SalesRule
 "Reward Point Used",使用积分,module,Magento_SalesRule
@@ -1608,7 +1610,7 @@ Summary,用户中心,module,Magento_ConfigurableProduct
 "Value index is not specified for an option.",值索引未指定选项。 ,module,Magento_ConfigurableProduct
 "Product with id ""%1"" does not contain required attribute ""%2"".","与id""%1""产品不包含所需的属性""%2""。",module ,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.",无法将该项目加入购物车。 ,module,Magento_ConfigurableProduct
-"You need to choose options for your item.",您需要选择您的项目的选择。 ,module,Magento_ConfigurableProduct
+"You need to choose options for your item.","请选择相关资料"。 ,module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.",一些产品变化字段不是有效的。 ,module,Magento_ConfigurableProduct
 "Configuration must have specified attributes",配置必须具有指定的属性,module,Magento_ConfigurableProduct
 "Choose Affected Attribute Set",选择受影响的属性集,module,Magento_ConfigurableProduct
@@ -1734,11 +1736,12 @@ System,系统,module,Magento_CurrencySymbol
 "Please enter a password with a valid length.",请输入一个有效的长度的密码。 ,module,Magento_CustomerImportExport
 "Sign Out",登出,module,Magento_Customer
 "Sign In",登录,module,Magento_Customer
-"You subscribe to our newsletter.",您订阅我们的时事通讯。 ,module,Magento_Customer
-"You don't subscribe to our newsletter.",您没有订阅我们的时事通讯。 ,module,Magento_Customer
+"You subscribe to our newsletter.",您订阅了我们的电子报。 ,module,Magento_Customer
+"You don't subscribe to our newsletter.",您没有订阅电子报。 ,module,Magento_Customer
 "You have not set a default shipping address.",您没有设置默认的送货地址。 ,module,Magento_Customer
 "You have not set a default billing address.",您没有储存账单地址。,module,Magento_Customer
-"Address Book",送货地址,module,Magento_Customer
+"Address Book",通讯地址,module,Magento_Customer
+"Address",地址,module,Magento_Customer
 "Additional Information",附加资讯,module,Magento_Customer
 "Edit Address",更改送货地址,module,Magento_Customer
 "Add New Address",添加新地址,module,Magento_Customer
@@ -1858,11 +1861,11 @@ Download,下载,module,Magento_Customer
 "My Account",我的账户,module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","此帐户尚未确认。<a href=""%1""> 点击这里</a> 重新发送确认电子邮件。",module,Magento_Customer
 "Invalid login or password.",电邮地址或密码错误。,module,Magento_Customer
-"An unspecified error occurred. Please contact us for assistance.",发生未知的错误。请援助，联系我们。 ,module,Magento_Customer
+"An unspecified error occurred. Please contact us for assistance.",发生未知的错误。如需协助，联系我们。 ,module,Magento_Customer
 "A login and a password are required.",登录名和密码是必需的。 ,module,Magento_Customer
 "New Password and Confirm New Password values didn't match.",新密码和确认新密码值不匹配。 ,module,Magento_Customer
 "Please enter a new password.",请输入一个新密码。 ,module,Magento_Customer
-"You updated your password.",您更新您的密码。 ,module,Magento_Customer
+"You updated your password.",您已更新密码。 ,module,Magento_Customer
 "Something went wrong while saving the new password.",保存新密码时出了错。 ,module,Magento_Customer
 "You deleted the address.",您删除地址。 ,module,Magento_Customer
 "We can't delete the address right now.",我们现在不能删除该地址。 ,module,Magento_Customer
@@ -2017,14 +2020,14 @@ Change,更改,module,Magento_Customer
 "Default Shipping Address",送货地址,module,Magento_Customer
 "Contact Information",个人资料,module,Magento_Customer
 "Change Password",更改密码,module,Magento_Customer
-Newsletters,订阅资讯,module,Magento_Customer
-"You subscribe to ""General Subscription"".","您已订阅EugeneBaby.com的最新资讯。",module,Magento_Customer
+Newsletters,订阅电子报,module,Magento_Customer
+"You subscribe to ""General Subscription"".","您已订阅电子报。",module,Magento_Customer
 or,或者,module,Magento_Customer
-"Default Addresses",通讯录,module,Magento_Customer
+"Default Addresses",通讯地址,module,Magento_Customer
 "Change Billing Address",更改账单地址,module,Magento_Customer
-"You have no default billing address in your address book.",您有没有默认的账单地址簿中的地址。 ,module,Magento_Customer
+"You have no default billing address in your address book.",您没有默认的账单地址。 ,module,Magento_Customer
 "Change Shipping Address",更改送货地址,module,Magento_Customer
-"You have no default shipping address in your address book.",您有没有缺省的送货地址在您的通讯录。 ,module,Magento_Customer
+"You have no default shipping address in your address book.",您没有默认的送货地址。 ,module,Magento_Customer
 "Additional Address Entries",其他地址,module,Magento_Customer
 "Delete Address",删除地址,module,Magento_Customer
 "You have no other address entries in your address book.",您并没有储存其他的地址。 ,module,Magento_Customer
@@ -2057,24 +2060,24 @@ Email,电邮,module,Magento_Customer
 Save,储存,module,Magento_Customer
 "Please enter your email address below to receive a password reset link.",请输入您的电子邮件地址来接收密码重置链接。 ,module,Magento_Customer
 "Reset My Password",重置我的密码,module,Magento_Customer
-"Registered Customers",已登记客户,module,Magento_Customer
-"If you have an account, sign in with your email address.",如果您已登记成为会员，请使用电邮地址登入。 ,module,Magento_Customer
+"Registered Customers",已注册会员,module,Magento_Customer
+"If you have an account, sign in with your email address.",如果您已注册成为会员，请使用电邮地址登入。 ,module,Magento_Customer
 Password,密码,module,Magento_Customer
 "Forgot Your Password?",您忘记密码了吗?,module,Magento_Customer
-"Subscription option",订阅资讯,module,Magento_Customer
+"Subscription option",订阅电子报,module,Magento_Customer
 "General Subscription",确认订阅,module,Magento_Customer
-"Sign Up for Newsletter",订阅最新的优惠资讯,module,Magento_Customer
+"Sign Up for Newsletter",订阅电子报,module,Magento_Customer
 "Address Information",地址信息,module,Magento_Customer
 "Sign-in Information",会员登入资料,module,Magento_Customer
 "Confirm Password",确认密码,module,Magento_Customer
 "Create an Account",注册会员,module,Magento_Customer
 "Set a New Password",设置新的密码,module,Magento_Customer
 "You have signed out and will go to our homepage in 5 seconds.","您已登出，5秒后将会返回首页。",module,Magento_Customer
-"New Customers",新客户,module,Magento_Customer
+"New Customers",新会员,module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","注册成为会员后可更快地查阅和追踪订单。", module,Magento_Customer
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","密码必须至少包含下列其中 %1 种字元: 大写字母、小写字母、数字或符号。",module,Magento_Customer
 "Please enter the same value again.","请输入相同密码。",module,Magento_Customer
-"Creating an account can check and track orders anytime.","注册成为会员可随时查阅和追踪订单。",module,Magento_Customer
+"Creating an account can check and track orders anytime.","注册成为基本会员，享受购物优惠与乐趣。",module,Magento_Customer
 "Gender","性别",module,Magento_Customer
 "Name","名字",module,Magento_Customer
 "Tax/VAT number","增值税/VAT 号码",module,Magento_Customer
@@ -2085,6 +2088,7 @@ Password,密码,module,Magento_Customer
 "Very Strong","非常强",module,Magento_Customer
 "Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","密码必须至少有 %1 个字元。",module,Magento_Customer
 "This is a required field.","*必须填写",module,Magento_Customer
+"This is a required option.","*必须选择",module,Magento_Customer
 "Please enter the same value again.","请输入相同密码。",module,Magento_Customer
 "Cannot switch into given mode ""%1""",不能切换到给定的模式“%1”,module,Magento_Deploy
 "Format for IDE '%1' is not supported","不支持格式为 IDE '%1'",module,Magento_Developer
@@ -2825,11 +2829,12 @@ items,项目,module,Magento_LayeredNavigation
 Previous,上一个,module,Magento_LayeredNavigation
 Remove,删除,module,Magento_LayeredNavigation
 "Remove This Item",删除该内容,module,Magento_LayeredNavigation
-"Shop By","分类筛选",module,Magento_LayeredNavigation
-"Filter By","分类筛选",module,Magento_LayeredNavigation
+"Shop By","筛选条件",module,Magento_LayeredNavigation
+"Filter By","筛选条件",module,Magento_LayeredNavigation
 "Clear All",全部清除,module,Magento_LayeredNavigation
 "Shopping Options",购物的选项,module,Magento_LayeredNavigation
 "Menu - ","目录 - ",module,Magento_LayeredNavigation
+"Menu","目录",module,Magento_LayeredNavigation
 "Category","产品类别",module,Magento_LayeredNavigation
 Partners,合作伙伴,module,Magento_Marketplace
 "Magento Marketplace","Magento 市场",module,Magento_Marketplace
@@ -2883,7 +2888,7 @@ Price,价格,module,Magento_Msrp
 Total,总额,module,Magento_Multishipping
 "Total for this address",共为此地址的,module,Magento_Multishipping
 "Shipping Methods",运送方法,module,Magento_Multishipping
-"Edit Address",更改送货地址,module,Magento_Multishipping
+"Edit Address",更改地址,module,Magento_Multishipping
 "Edit Billing Address",编辑账单地址,module,Magento_Multishipping
 "Edit Shipping Address",编辑送货地址,module,Magento_Multishipping
 "Create Billing Address",创建账单地址,module,Magento_Multishipping
@@ -2894,7 +2899,7 @@ Total,总额,module,Magento_Multishipping
 "Order place error",顺序位置误差,module,Magento_Multishipping
 "Maximum qty allowed for Shipping to multiple addresses is %1","允许发货到多个地址的最大数量是 %1",module,Magento_Multishipping
 "Please check shipping address information.",请检查送货地址信息。 ,module,Magento_Multishipping
-"Please check billing address information.",请检查送货地址信息。 ,module,Magento_Multishipping
+"Please check billing address information.",请检查账单地址信息。 ,module,Magento_Multishipping
 "Please select shipping methods for all addresses.",请选择所有地址的配送方式。 ,module,Magento_Multishipping
 "A payment method is not defined.",未定义的付款方法。 ,module,Magento_Multishipping
 "The requested payment method is not available for multishipping.","Multishipping 的请求的付款方法不可用。",module,Magento_Multishipping
@@ -2926,7 +2931,7 @@ Actions,动作,module,Magento_Multishipping
 "Back to Shopping Cart",返回到购物车,module,Magento_Multishipping
 "Billing Address",账单地址,module,Magento_Multishipping
 Change,更改,module,Magento_Multishipping
-"Payment Method",支付方式,module,Magento_Multishipping
+"Payment Method",付款方法,module,Magento_Multishipping
 "Go to Review Your Order",去查看您的订单,module,Magento_Multishipping
 "Back to Shipping Information",追溯到发货信息,module,Magento_Multishipping
 "Other items in your order",您的订单中的其他项,module,Magento_Multishipping
@@ -2952,7 +2957,7 @@ Items,产品,module,Magento_Multishipping
 "Back to Select Addresses",返回选择地址,module,Magento_Multishipping
 "Thank you for your purchase!",感谢您的购买！ ,module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.",谢谢您的订单。我们会通过电子邮件发送您订单的详细信息和跟踪信息。 ,module,Magento_Multishipping
-"Continue Shopping",继续购物,module,Magento_Multishipping
+"Continue Shopping","继续购物",module,Magento_Multishipping
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","没有New Relic应用程序 ID 配置，无法继续通过计划事件报告",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","新的遗物一体化要求 newrelic php5 代理，不安装。有关安装代理的详细信息是可用 <a target=""_blank""href=""%1""> 在这里</a>。 ",module,Magento_NewRelicReporting
@@ -3009,7 +3014,7 @@ Action,操作,module,Magento_Newsletter
 "Edit Queue",编辑队列,module,Magento_Newsletter
 "Please correct the newsletter template and try again.",请更正新闻稿模板，再试一次。 ,module,Magento_Newsletter
 "You saved the newsletter queue.",您保存通讯队列。 ,module,Magento_Newsletter
-"Newsletter Subscribers",时事通讯订阅服务器,module,Magento_Newsletter
+"Newsletter Subscribers",电子报订阅服务器,module,Magento_Newsletter
 Newsletter,已暂停,module,Magento_Newsletter
 Subscribers,订阅用户,module,Magento_Newsletter
 "Please select one or more subscribers.",请选择一个或多个订阅服务器。 ,module,Magento_Newsletter
@@ -3020,13 +3025,13 @@ Subscribers,订阅用户,module,Magento_Newsletter
 "Edit Template",编辑模板,module,Magento_Newsletter
 "New Template",新建模板,module,Magento_Newsletter
 "Create Newsletter Template",创建新闻稿模板,module,Magento_Newsletter
-"The newsletter template has been saved.",时事通讯模板已保存。 ,module,Magento_Newsletter
+"The newsletter template has been saved.",电子报模板已保存。 ,module,Magento_Newsletter
 "Something went wrong while saving this template.",保存此模板时，出了错。 ,module,Magento_Newsletter
-"Newsletter Subscription",订阅资讯,module,Magento_Newsletter
+"Newsletter Subscription",订阅电子报,module,Magento_Newsletter
 "Something went wrong while saving your subscription.",保存订阅时出了错。 ,module,Magento_Newsletter
-"We saved the subscription.",已储存您的订阅资讯。,module,Magento_Newsletter
-"We removed the subscription.",我们删除订阅。 ,module,Magento_Newsletter
-"Your subscription has been confirmed.",您的订阅已被证实。 ,module,Magento_Newsletter
+"We saved the subscription.",您已订阅电子报。,module,Magento_Newsletter
+"We removed the subscription.",您已取消订阅电子报。 ,module,Magento_Newsletter
+"Your subscription has been confirmed.",您的订阅已被确认。 ,module,Magento_Newsletter
 "This is an invalid subscription confirmation code.",这是一个无效的订阅确认码。 ,module,Magento_Newsletter
 "This is an invalid subscription ID.","这是一个无效的订阅 id。",module,Magento_Newsletter
 "This email address is already assigned to another user.",此电邮已被登记。,module,Magento_Newsletter
@@ -3053,9 +3058,9 @@ Paused,已暂停,module,Magento_Newsletter
 "Are you sure that you want to strip all tags?",您确定您想要去掉所有标记?,module,Magento_Newsletter
 "Please enter a new template name.",请输入一个新的模板名称。 ,module,Magento_Newsletter
 "Are you sure you want to delete this template?",是否确实要删除此模板?,module,Magento_Newsletter
-"Sign Up for Our Newsletter:",注册我们的时事通讯:,module,Magento_Newsletter
+"Sign Up for Our Newsletter:",注册我们的电子报:,module,Magento_Newsletter
 "Enter your email address",输入您的电子邮件地址,module,Magento_Newsletter
-Subscribe,订阅资讯,module,Magento_Newsletter
+Subscribe,订阅电子报,module,Magento_Newsletter
 "Make Check payable to:","请检查支付给 ︰",module,Magento_OfflinePayments
 "Send Check to:",所有商品自动生成发票,module,Magento_OfflinePayments
 "Purchase Order Number",采购订单编号,module,Magento_OfflinePayments
@@ -3197,7 +3202,7 @@ Sales,销售,module,Magento_Paypal
 "Billing Agreement # %1","计费协议 # %1",module,Magento_Paypal
 "We can't initialize Express Checkout.",我们不能初始化快速结账。 ,module,Magento_Paypal
 "PayPal Express Checkout Token does not exist.",贝宝表示签出令牌并不存在。 ,module,Magento_Paypal
-"A wrong PayPal Express Checkout Token is specified.",指定了一个错误的支付宝快捷结帐令牌。 ,module,Magento_Paypal
+"A wrong PayPal Express Checkout Token is specified.",指定了一个错误的支付宝快捷结账令牌。 ,module,Magento_Paypal
 "Express Checkout and Order have been canceled.",快速结账和订单已被取消。 ,module,Magento_Paypal
 "Express Checkout has been canceled.",快速结账已取消,module,Magento_Paypal
 "Unable to cancel Express Checkout",不能取消快速结账,module,Magento_Paypal
@@ -3255,7 +3260,7 @@ Never,永不,module,Magento_Paypal
 "We'll authorize the amount of %1 as soon as the payment gateway approves it.","我们将授权 %1 的量，尽快支付网关批准它。",module,Magento_Paypal
 "The authorized amount is %1.","授权的金额是 %1。",module,Magento_Paypal
 "The maximum number of child authorizations is reached.",达到了子授权的最大数目。 ,module,Magento_Paypal
-"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.",支付宝不能处理订单与一零平衡。要完成您的购买，请通过标准结帐过程。 ,module,Magento_Paypal
+"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.",支付宝不能处理订单与一零平衡。要完成您的购买，请通过标准结账过程。 ,module,Magento_Paypal
 "A payer is not identified.",不确定的付款人。 ,module,Magento_Paypal
 "Cannot get secure form URL from PayPal","无法从 PayPal 安全窗体的 URL",module,Magento_Paypal
 "Last Transaction ID","最后的交易 ID",module,Magento_Paypal
@@ -3384,13 +3389,13 @@ Debit,借记卡,module,Magento_Paypal
 "Bonus for first ACH Use","第一次的 ACH 使用奖金",module,Magento_Paypal
 "Buyer Credit Payment",买方信贷付款,module,Magento_Paypal
 Charge-off,撇帐,module,Magento_Paypal
-"Coupon Redemption",优惠券,module,Magento_Paypal
+"Coupon Redemption",优惠码,module,Magento_Paypal
 "Currency Conversion required to cover negative balance",货币转换需要支付负平衡,module,Magento_Paypal
 "Debit Card Cash Back",借记卡卡现金返还,module,Magento_Paypal
 "Debit Card Transaction",借记卡交易,module,Magento_Paypal
 "Direct Payment API","直接付款的 API",module,Magento_Paypal
 "EFT Funding (German banking)","EFT 筹资 (德国银行)",module,Magento_Paypal
-"Express Checkout APIs","表达结帐 Api",module,Magento_Paypal
+"Express Checkout APIs","表达结账 Api",module,Magento_Paypal
 "Fee Reversal",费逆转,module,Magento_Paypal
 "Fee: Foreign ACH Withdrawal","费用: 外国 ACH 撤出",module,Magento_Paypal
 "Fee: Mass Pay Request","费用: 大规模付款请求",module,Magento_Paypal
@@ -3453,7 +3458,7 @@ Void,创建于,module,Magento_Paypal
 "The PayPal certificate file is empty.",贝宝的证书文件是空的。 ,module,Magento_Paypal
 "Header (center)","标题 (中心)",module,Magento_Paypal
 "Sidebar (right)","侧边栏 (右)",module,Magento_Paypal
-"Near PayPal Credit checkout button",贝宝信用卡结帐按钮附近,module,Magento_Paypal
+"Near PayPal Credit checkout button",贝宝信用卡结账按钮附近,module,Magento_Paypal
 "--Please Select--","-- 请选择 --",module,Magento_Paypal
 Daily,每天,module,Magento_Paypal
 "Every 3 days","每隔 3 天",module,Magento_Paypal
@@ -3477,22 +3482,22 @@ Customer,客户,module,Magento_Paypal
 "Updated At",更新,module,Magento_Paypal
 here,在这里,module,Magento_Paypal
 "To use PayPal Payments Advanced, you must configure your PayPal Payments Advanced account on the PayPal website.",若要使用贝宝付款先进，必须在贝宝网站上配置您的贝宝付款高级帐户。 ,module,Magento_Paypal
-"Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","一旦您登录到您的PayPal 高级帐户、 导航到服务设置-主办结帐页面-设置目录和设置选项如下所述",module,Magento_Paypal
+"Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","一旦您登录到您的PayPal 高级帐户、 导航到服务设置-主办结账页面-设置目录和设置选项如下所述",module,Magento_Paypal
 "To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","若要使用 PayPal 转账链接，您必须在贝宝网站上配置您的 PayPal 转账链接帐户。",module,Magento_Paypal
-"Once you log into your PayPal Payflow Link account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","一旦您登录到您的PayPal 转账链接帐户、 导航到服务设置-主办结帐页面-设置目录和设置选项如下所述",module,Magento_Paypal
+"Once you log into your PayPal Payflow Link account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","一旦您登录到您的PayPal 转账链接帐户、 导航到服务设置-主办结账页面-设置目录和设置选项如下所述",module,Magento_Paypal
 "Agreement Information",协议信息,module,Magento_Paypal
 "Reference ID:","引用 ID:",module,Magento_Paypal
 Status:,状态:,module,Magento_Paypal
 Created:,已创建:,module,Magento_Paypal
 Updated:,更新:,module,Magento_Paypal
-"Payment Method:",支付方式:,module,Magento_Paypal
+"Payment Method:",付款方法:,module,Magento_Paypal
 "Order #","订单编号",module,Magento_Paypal
 Date,日期,module,Magento_Paypal
 "Ship To",收件人,module,Magento_Paypal
 "Order Status",订单状态,module,Magento_Paypal
 "View Order",查看订单,module,Magento_Paypal
 "Back to Billing Agreements",回到计费协定,module,Magento_Paypal
-"Payment Method",支付方式,module,Magento_Paypal
+"Payment Method",付款方法,module,Magento_Paypal
 View,查看,module,Magento_Paypal
 "There are no billing agreements yet.",目前还没有自动扣款协议。 ,module,Magento_Paypal
 "New Billing Agreement",新计费协议,module,Magento_Paypal
@@ -3569,8 +3574,8 @@ Title:,标题：,module,Magento_ProductVideo
 "Unable to save address. Please check input data.",无法储存地址。请检查输入的数据。 ,module,Magento_Quote
 "Cart %1 doesn't contain products",车%1不包含产品,module,Magento_Quote
 "Could not apply coupon code","无法设置送货方式。 %1",module,Magento_Quote
-"Coupon code is not valid",优惠券代码无效,module,Magento_Quote
-"Could not delete coupon code",无法删除优惠券代码,module,Magento_Quote
+"Coupon code is not valid",优惠码无效,module,Magento_Quote
+"Could not delete coupon code",无法删除优惠码代码,module,Magento_Quote
 "Shipping address is not set",运营商有这样的方法没有发现：%1%2,module,Magento_Quote
 "The requested Payment Method is not available.",付款方法不可用。 ,module,Magento_Quote
 "We found an invalid request for adding product to quote.",我们发现一个无效的请求添加产品报价。 ,module,Magento_Quote
@@ -3579,7 +3584,7 @@ Title:,标题：,module,Magento_ProductVideo
 "The address model is not defined.",未定义地址模型。 ,module,Magento_Quote
 "Grand Total",总额,module,Magento_Quote
 "Shipping & Handling (%1)","航运及处理 (%1)",module,Magento_Quote
-"Shipping & Handling",运费和手续费,module,Magento_Quote
+"Shipping & Handling",运费,module,Magento_Quote
 Shipping,运费,module,Magento_Quote
 Subtotal,小计,module,Magento_Quote
 "We found an invalid item option format.",我们发现无效项目选项的格式。 ,module,Magento_Quote
@@ -3594,7 +3599,7 @@ Subtotal,小计,module,Magento_Quote
 "Could not save quote",不能保存报价,module,Magento_Quote
 "Cart %1 doesn't contain item %2","购物车 %1 不包含商品 %2",module,Magento_Quote
 "Could not remove item from quote",无法删除报价单中的商品,module,Magento_Quote
-"The qty value is required to update quote item.",更新引用项需数量值。 ,module,Magento_Quote
+"The qty value is required to update quote item.",更新该产品需数量值。 ,module,Magento_Quote
 "Invalid customer id %1","无效的客户 id %1",module,Magento_Quote
 "Invalid address id %1","无效地址 id %1",module,Magento_Quote
 "Cannot create quote",不能创建报价单,module,Magento_Quote
@@ -3604,7 +3609,7 @@ Subtotal,小计,module,Magento_Quote
 "This item price or quantity is not valid for checkout.",这个项目的价格或数量是无效的。 ,module,Magento_Quote
 "Please check the shipping address information. %1",请检查送货地址信息。 %1,module,Magento_Quote
 "Please specify a shipping method.",请指定一个装运方法。 ,module,Magento_Quote
-"Please check the billing address information. %1",请检查送货地址信息。 %1,module,Magento_Quote
+"Please check the billing address information. %1",请检查账单地址信息。 %1,module,Magento_Quote
 "Please select a valid payment method.",请选择有效的付款方法。 ,module,Magento_Quote
 "Store Credit",店铺信用,module,Magento_Quote
 Discount,折扣,module,Magento_Quote
@@ -3658,7 +3663,7 @@ Created,建立日期,module,Magento_Reports
 "Products Reviews",产品评论,module,Magento_Reports
 "Products Bestsellers Report",产品畅销报告,module,Magento_Reports
 "Order Quantity",订购数量,module,Magento_Reports
-"Coupons Usage Report",优惠券使用情况报告,module,Magento_Reports
+"Coupons Usage Report",优惠码使用情况报告,module,Magento_Reports
 Subtotal,小计,module,Magento_Reports
 "Coupon Code",优惠劵,module,Magento_Reports
 "Price Rule",价格规则,module,Magento_Reports
@@ -3702,7 +3707,7 @@ Rate,费率,module,Magento_Reports
 Email,电邮,module,Magento_Reports
 Products,产品展示,module,Magento_Reports
 Quantity,数量,module,Magento_Reports
-"Applied Coupon",应用的优惠券,module,Magento_Reports
+"Applied Coupon",应用的优惠码,module,Magento_Reports
 Updated,已更新,module,Magento_Reports
 "IP Address","IP 地址",module,Magento_Reports
 Customers,客户,module,Magento_Reports
@@ -3737,8 +3742,8 @@ Reviews,点评,module,Magento_Reports
 "Product Reviews",产品评论,module,Magento_Reports
 Details,详情,module,Magento_Reports
 Sales,销售,module,Magento_Reports
-Coupons,优惠券,module,Magento_Reports
-"Coupons Report",优惠券报告,module,Magento_Reports
+Coupons,优惠码,module,Magento_Reports
+"Coupons Report",优惠码报告,module,Magento_Reports
 "Invoice Report",发票报表,module,Magento_Reports
 "Refunds Report",退款报告,module,Magento_Reports
 "Sales Report",销售报告,module,Magento_Reports
@@ -3757,7 +3762,7 @@ Statistics,统计数据,module,Magento_Reports
 "The product type filter specified is incorrect.",指定的产品类型筛选器是不正确的。 ,module,Magento_Reports
 "Order Taxes Report Grouped by Tax Rates",订单税报表按税率,module,Magento_Reports
 "Total Invoiced VS Paid Report","总开票 VS 支付报告",module,Magento_Reports
-"Promotion Coupons Usage Report",促销优惠券使用报告,module,Magento_Reports
+"Promotion Coupons Usage Report",促销优惠码使用报告,module,Magento_Reports
 Bestsellers,无法刷新全部统计,module,Magento_Reports
 "Most Viewed Products Report",最查看的产品报告,module,Magento_Reports
 "An error occurred while showing the product views report. Please review the log and try again.",显示产品意见报告时出错。请查看日志并再试一次。 ,module,Magento_Reports
@@ -3950,8 +3955,8 @@ Actions,动作,module,Magento_SalesRule
 "Apply To",应用给,module,Magento_SalesRule
 Conditions,条件,module,Magento_SalesRule
 "Apply the rule only if the following conditions are met (leave blank for all products).","仅在满足以下条件时应用规则 (留空所有产品)。",module,Magento_SalesRule
-"Manage Coupon Codes",管理优惠券代码,module,Magento_SalesRule
-"Coupon Qty",优惠券数量,module,Magento_SalesRule
+"Manage Coupon Codes",管理优惠码代码,module,Magento_SalesRule
+"Coupon Qty",优惠码数量,module,Magento_SalesRule
 "Code Length",每x个字符加横线,module,Magento_SalesRule
 "Excluding prefix, suffix and separators.","不包括前缀、 后缀和分隔符。",module,Magento_SalesRule
 "Code Format",代码格式,module,Magento_SalesRule
@@ -3976,7 +3981,7 @@ Start,开始,module,Magento_SalesRule
 End,结束,module,Magento_SalesRule
 Status,状态,module,Magento_SalesRule
 "%1 - Discounts and Coupons",%1-折扣和优惠,module,Magento_SalesRule
-Coupons/Discounts,优惠券/折扣,module,Magento_SalesRule
+Coupons/Discounts,优惠码/折扣,module,Magento_SalesRule
 Promotions,促销活动,module,Magento_SalesRule
 "You deleted the rule.",规则已保存。 ,module,Magento_SalesRule
 "We can't delete the rule right now. Please review the log and try again.",我们现在不能删除该规则。请查看日志并再试一次。 ,module,Magento_SalesRule
@@ -3988,7 +3993,7 @@ Promotions,促销活动,module,Magento_SalesRule
 "Rule is not defined",没有定义规则,module,Magento_SalesRule
 "Invalid data provided",提供无效数据,module,Magento_SalesRule
 "%1 coupon(s) have been generated.","%1 coupon(s) 已生成。",module,Magento_SalesRule
-"Something went wrong while generating coupons. Please review the log and try again.",在生成优惠券时出了错。请查看日志并再试一次。 ,module,Magento_SalesRule
+"Something went wrong while generating coupons. Please review the log and try again.",在生成优惠码时出了错。请查看日志并再试一次。 ,module,Magento_SalesRule
 Catalog,目录,module,Magento_SalesRule
 "The wrong rule is specified.",指定了错误的规则。 ,module,Magento_SalesRule
 "You saved the rule.",您保存的规则。 ,module,Magento_SalesRule
@@ -3996,18 +4001,18 @@ Catalog,目录,module,Magento_SalesRule
 Alphanumeric,字母表,module,Magento_SalesRule
 Alphabetical,字母表,module,Magento_SalesRule
 Numeric,数字,module,Magento_SalesRule
-"We cannot create the requested Coupon Qty. Please check your settings and try again.",我们不能创建请求的优惠券数量请检查您的设置，然后重试。 ,module,Magento_SalesRule
-"Specified rule does not allow coupons",指定的规则不允许优惠券,module,Magento_SalesRule
-"Specified rule only allows auto generated coupons",指定的规则只允许自动生成优惠券,module,Magento_SalesRule
-"Specified rule does not allow auto generated coupons",指定的规则不允许自动生成优惠券,module,Magento_SalesRule
-"Error occurred when saving coupon: %1","保存优惠券时出现错误: %1",module,Magento_SalesRule
+"We cannot create the requested Coupon Qty. Please check your settings and try again.",我们不能创建请求的优惠码数量请检查您的设置，然后重试。 ,module,Magento_SalesRule
+"Specified rule does not allow coupons",指定的规则不允许优惠码,module,Magento_SalesRule
+"Specified rule only allows auto generated coupons",指定的规则只允许自动生成优惠码,module,Magento_SalesRule
+"Specified rule does not allow auto generated coupons",指定的规则不允许自动生成优惠码,module,Magento_SalesRule
+"Error occurred when saving coupon: %1","保存优惠码时出现错误: %1",module,Magento_SalesRule
 "Discount (%1)","折扣 (%1)",module,Magento_SalesRule
 Discount,折扣,module,Magento_SalesRule
-"Coupon with the same code",优惠券使用相同的代码,module,Magento_SalesRule
-"No Coupon",没有优惠券,module,Magento_SalesRule
-"Specific Coupon",具体的优惠券,module,Magento_SalesRule
+"Coupon with the same code",优惠码使用相同的代码,module,Magento_SalesRule
+"No Coupon",没有优惠码,module,Magento_SalesRule
+"Specific Coupon",具体的优惠码,module,Magento_SalesRule
 Auto,自动,module,Magento_SalesRule
-"Can't acquire coupon.",无法获取优惠券。 ,module,Magento_SalesRule
+"Can't acquire coupon.",无法获取优惠码。 ,module,Magento_SalesRule
 "Update the Product",产品更新,module,Magento_SalesRule
 "Special Price",特殊价格,module,Magento_SalesRule
 "To Fixed Value",为固定值,module,Magento_SalesRule
@@ -4018,7 +4023,7 @@ Auto,自动,module,Magento_SalesRule
 Subtotal,小计,module,Magento_SalesRule
 "Total Items Quantity",总的项目数量,module,Magento_SalesRule
 "Total Weight",总重量,module,Magento_SalesRule
-"Payment Method",支付方式,module,Magento_SalesRule
+"Payment Method",付款方法,module,Magento_SalesRule
 "Shipping Method",运送方式,module,Magento_SalesRule
 "Shipping Postcode",航运邮编,module,Magento_SalesRule
 "Shipping Region",航运区域,module,Magento_SalesRule
@@ -4048,15 +4053,15 @@ is,非,module,Magento_SalesRule
 "is one of",小于,module,Magento_SalesRule
 "is not one of",不是的,module,Magento_SalesRule
 "If %1​​ %2 %3 for a subselection of items in cart matching %4 of these conditions:","如果选定项目中的%1 %2 %3 购物车匹配%4 的这些条件:",module, Magento_SalesRule
-"Percent of product price discount",自动生成的具体优惠券代码,module,Magento_SalesRule
+"Percent of product price discount",自动生成的具体优惠码代码,module,Magento_SalesRule
 "Fixed amount discount",固定的金额的折扣,module,Magento_SalesRule
 "Fixed amount discount for whole cart",整车的固定的金额折扣,module,Magento_SalesRule
 "Buy X get Y free (discount amount is Y)","买 X 得到 Y 免费 (折扣金额是 Y)",module,Magento_SalesRule
 Active,活动,module,Magento_SalesRule
 Inactive,未激活,module,Magento_SalesRule
-"Specified rule does not allow automatic coupon generation",指定的规则不允许自动优惠券一代,module,Magento_SalesRule
-"Error occurred when generating coupons: %1","生成的优惠券时出现错误: %1",module,Magento_SalesRule
-"Some coupons are invalid.",一些优惠券是无效的。 ,module,Magento_SalesRule
+"Specified rule does not allow automatic coupon generation",指定的规则不允许自动优惠码一代,module,Magento_SalesRule
+"Error occurred when generating coupons: %1","生成的优惠码时出现错误: %1",module,Magento_SalesRule
+"Some coupons are invalid.",一些优惠码是无效的。 ,module,Magento_SalesRule
 "Item totals are not set for the rule.",项目总计不会设定规则。 ,module,Magento_SalesRule
 "%1 Cart Price Rules based on ""%2"" attribute have been disabled.","%1 购物车价格规则，基于""%2""属性已被禁用。",module,Magento_SalesRule
 "Entity Sequence profile not added to meta active profile",实体序列配置文件不会添加到元活动配置文件,module,Magento_SalesSequence
@@ -4077,9 +4082,9 @@ Billing,账单,module,Magento_Sales
 "Are you sure you want to cancel this order?",您确定您想要取消此订单?,module,Magento_Sales
 Cancel,保存,module,Magento_Sales
 "Billing Address",账单地址,module,Magento_Sales
-"Payment Method",支付方式,module,Magento_Sales
+"Payment Method",付款方法,module,Magento_Sales
 "Order Comment",订单资料,module,Magento_Sales
-Coupons,优惠券,module,Magento_Sales
+Coupons,优惠码,module,Magento_Sales
 "Please select a customer",请选择客户,module,Magento_Sales
 "Create New Customer",创建新客户,module,Magento_Sales
 "Account Information",个人资料,module,Magento_Sales
@@ -4090,7 +4095,7 @@ Message,信息,module,Magento_Sales
 "Create New Order for %1 in %2","为 %2 中的 %1 创建新订单",module,Magento_Sales
 "Create New Order for %1","为 %1 创建新订单",module,Magento_Sales
 "Create New Order for New Customer",为新客户创建新订单,module,Magento_Sales
-"Items Ordered",已下单的商品,module,Magento_Sales
+"Items Ordered",订单详情,module,Magento_Sales
 "This product is disabled.",本产品已下架。 ,module,Magento_Sales
 "Buy %1 for price %2","购买价格 %2 %1",module,Magento_Sales
 "Item ordered qty",订购数量,module,Magento_Sales
@@ -4100,7 +4105,7 @@ Message,信息,module,Magento_Sales
 "* - Enter custom price excluding tax",*-输入自定义价格（不含税）,module,Magento_Sales
 Configure,配置,module,Magento_Sales
 "This product does not have any configurable options",此产品并没有任何的可配置选项,module,Magento_Sales
-"Newsletter Subscription",订阅资讯,module,Magento_Sales
+"Newsletter Subscription",订阅电子报,module,Magento_Sales
 "Please select products",请选择产品。 ,module,Magento_Sales
 "Add Selected Product(s) to Order",将所选的产品添加到订单,module,Magento_Sales
 Product,产品,module,Magento_Sales
@@ -4222,7 +4227,7 @@ No,否,module,Magento_Sales
 "Show Actual Values",显示实际值,module,Magento_Sales
 "New Order RSS","新秩序 RSS",module,Magento_Sales
 Subtotal,小计,module,Magento_Sales
-"Shipping & Handling",运费和手续费,module,Magento_Sales
+"Shipping & Handling",运费,module,Magento_Sales
 "Discount (%1)","折扣 (%1)",module,Magento_Sales
 Discount,折扣,module,Magento_Sales
 "Grand Total",总额,module,Magento_Sales
@@ -4253,9 +4258,9 @@ Sales,销售,module,Magento_Sales
 "We can't update the order address right now.",我们现在不能更新订单地址。 ,module,Magento_Sales
 "You have not canceled the item.",您还没有取消该项目。 ,module,Magento_Sales
 "You canceled the order.",您取消订单。 ,module,Magento_Sales
-"""%1"" coupon code was not applied. Do not apply discount is selected for item(s)","""%1""优惠券代码不是适用的。不适用于为项目选择的折扣", module,Magento_Sales
-"""%1"" coupon code is not valid.","""%1""优惠券代码是无效的。",module,Magento_Sales
-"The coupon code has been accepted.",优惠券代码已被接受。 ,module,Magento_Sales
+"""%1"" coupon code was not applied. Do not apply discount is selected for item(s)","""%1""优惠码代码不是适用的。不适用于为项目选择的折扣", module,Magento_Sales
+"""%1"" coupon code is not valid.","""%1""优惠码代码是无效的。",module,Magento_Sales
+"The coupon code has been accepted.",优惠码代码已被接受。 ,module,Magento_Sales
 "Quote item id is not received.","总计 %1 产品",module,Magento_Sales
 "Quote item is not loaded.",报价产品没有装载。 ,module,Magento_Sales
 "New Order",新秩序,module,Magento_Sales
@@ -4422,7 +4427,7 @@ Authorization,发送至,module,Magento_Sales
 "You can't do this without a transaction object.",您不能没有一个事务对象。 ,module,Magento_Sales
 "Sold to:",卖给:,module,Magento_Sales
 "Ship to:",送货地址:,module,Magento_Sales
-"Payment Method:",支付方式:,module,Magento_Sales
+"Payment Method:",付款方法:,module,Magento_Sales
 "Shipping Method:",送货方法：,module,Magento_Sales
 "Total Shipping Charges",总运费,module,Magento_Sales
 Title,标题,module,Magento_Sales
@@ -4502,9 +4507,9 @@ Notified,已通知。 ,module,Magento_Sales
 "Not Notified",不通知,module,Magento_Sales
 "No Payment Methods",没有付款方法,module,Magento_Sales
 "Order Comments",订单的评论,module,Magento_Sales
-"Apply Coupon Code",适用的优惠券代码,module,Magento_Sales
+"Apply Coupon Code",适用的优惠码代码,module,Magento_Sales
 Apply,应用,module,Magento_Sales
-"Remove Coupon Code",删除优惠券代码,module,Magento_Sales
+"Remove Coupon Code",删除优惠码代码,module,Magento_Sales
 Remove,删除,module,Magento_Sales
 "Address Information",地址信息,module,Magento_Sales
 "Payment &amp; Shipping Information",付款和发货信息,module,Magento_Sales
@@ -4513,7 +4518,7 @@ Remove,删除,module,Magento_Sales
 "Same As Billing Address",与账单地址相同,module,Magento_Sales
 "Select from existing customer addresses:",从现有的客户地址中选择:,module,Magento_Sales
 "Add New Address",添加新地址,module,Magento_Sales
-"Save in address book",保存到地址簿,module,Magento_Sales
+"Save in address book",储存至“通讯地址”,module,Magento_Sales
 "You don't need to select a shipping address.",您不需要选择送货地址。 ,module,Magento_Sales
 "Gift Message for the Entire Order",整个订单的礼物留言,module,Magento_Sales
 "Leave this box blank if you don't want to leave a gift message for the entire order.",将此框保留为空，如果您不想离开整个订单的礼物留言。 ,module,Magento_Sales
@@ -4571,7 +4576,7 @@ Item,产品,module,Magento_Sales
 From:,从：,module,Magento_Sales
 To:,至：,module,Magento_Sales
 Message:,消息：,module,Magento_Sales
-"Shipping &amp; Handling",运费和手续费,module,Magento_Sales
+"Shipping &amp; Handling",运费,module,Magento_Sales
 "Gift Options",请将此框留空，如果您不想留下礼物消息的整个订单。 ,module,Magento_Sales
 "Create Shipment",创建装运,module,Magento_Sales
 "Invoice and shipment types do not match for some items on this order. You can create a shipment only after creating the invoice.",发票和装运类型不匹配此订单上的某些商品。您可以创建仅在创建发票后的装运。 ,module,Magento_Sales
@@ -4883,7 +4888,7 @@ Title,标题,module,Magento_Shipping
 Number,数字,module,Magento_Shipping
 Action,操作,module,Magento_Shipping
 "Are you sure?",您确定吗？ ,module,Magento_Shipping
-"Shipping &amp; Handling Information",运费和手续费信息,module,Magento_Shipping
+"Shipping &amp; Handling Information",运费信息,module,Magento_Shipping
 "Track Order",跟踪订单,module,Magento_Shipping
 "No shipping information available",没有可用的航运信息,module,Magento_Shipping
 "Shipping and Tracking Information",运输和跟踪信息,module,Magento_Shipping
@@ -5437,7 +5442,7 @@ Role,职能,module,Magento_User
 "We'll email you a link to reset your password.",我们马上给您发一个链接来重置您的密码。 ,module,Magento_User
 "Please correct this email address:",请更正此电子邮件地址:,module,Magento_User
 "Please enter an email address.",请输入电子邮件地址。 ,module,Magento_User
-"You updated your password.",您更新您的密码。 ,module,Magento_User
+"You updated your password.",您已更新密码。 ,module,Magento_User
 "Locked Users",锁定的用户,module,Magento_User
 "Unlocked %1 user(s).","解锁的 %1 的用户。",module,Magento_User
 System,系统,module,Magento_User
@@ -5716,12 +5721,12 @@ Page,页面,module,Magento_Widget
 "Please enter an email address.",请输入电子邮件地址。 ,module,Magento_Wishlist
 "This wish list can be shared %1 more times.","这喜爱清单可以共享的 %1 更多倍。",module,Magento_Wishlist
 "Please enter a valid email address.",请输入有效的电子邮件地址。 ,module,Magento_Wishlist
-"Your wish list has been shared.",已共享您的期望列表。 ,module,Magento_Wishlist
-"We can't delete item from Wish List right now.",我们现在不能从喜爱清单中删除项目。 ,module,Magento_Wishlist
+"Your wish list has been shared.",已分享您的喜爱清单。 ,module,Magento_Wishlist
+"We can't delete item from Wish List right now.",我们现在不能从喜爱清单中删除产品。 ,module,Magento_Wishlist
 "Can't save description %1","无法保存描述 %1",module,Magento_Wishlist
 "Can't update wish list",不能更新的喜爱清单,module,Magento_Wishlist
 "%1 has been updated in your Wish List.","%1 已更新您的喜爱清单中。",module,Magento_Wishlist
-"We can't update your Wish List right now.",我们现在无法更新您的期望列表。 ,module,Magento_Wishlist
+"We can't update your Wish List right now.",我们现在无法更新您的喜爱清单。 ,module,Magento_Wishlist
 "The requested Wish List doesn't exist.",请求的喜爱清单不存在。 ,module,Magento_Wishlist
 "We can't create the Wish List right now.",我们不能创造收藏清单现在。 ,module,Magento_Wishlist
 "%1 items","%1 件产品",module,Magento_Wishlist
@@ -5734,11 +5739,11 @@ Comment,内容,module,Magento_Wishlist
 "Cannot specify product.",不能指定产品。 ,module,Magento_Wishlist
 "Product is not salable.",产品不是畅销的。 ,module,Magento_Wishlist
 "Invalid item option format.",无效的项目选项的格式。 ,module,Magento_Wishlist
-"%1 for ""%2"".","%1 为""%2""的。",module,Magento_Wishlist
+"%1 for ""%2"".","请先为 ""%2"" %1，再加入购物车。",module,Magento_Wishlist
 "We can't add this item to your shopping cart right now.",我们这个项目不能添加到您的购物车现在。 ,module,Magento_Wishlist
 "We couldn't add the following product(s) to the shopping cart: %1.","我们不能将下面的产品加入购物车: %1。",module,Magento_Wishlist
 "We can't update the Wish List right now.",我们现在不能更新喜爱清单。 ,module,Magento_Wishlist
-"%1 product(s) have been added to shopping cart: %2.","%1 的收藏夹",module,Magento_Wishlist
+"%1 product(s) have been added to shopping cart: %2.","%1 件产品已成功加入购物车",module,Magento_Wishlist
 Comment:,评论:,module,Magento_Wishlist
 "We cannot retrieve the Wish List.",我们无法检索的喜爱清单。 ,module,Magento_Wishlist
 "%1's Wishlist","%1 的收藏",module,Magento_Wishlist
@@ -5763,8 +5768,8 @@ Availability,库存,module,Magento_Wishlist
 "In stock",有货,module,Magento_Wishlist
 "Out of stock",缺货,module,Magento_Wishlist
 Edit,编辑,module,Magento_Wishlist
-"Remove Item",删除项目,module,Magento_Wishlist
-"Remove item",删除项目,module,Magento_Wishlist
+"Remove Item",删除产品,module,Magento_Wishlist
+"Remove item",删除产品,module,Magento_Wishlist
 "Add to Compare",添加并比较,module,Magento_Wishlist
 "This Wish List has no Items",这喜爱清单已没有项目,module,Magento_Wishlist
 "See Details",查看具体信息,module,Magento_Wishlist
@@ -5775,20 +5780,20 @@ Product,产品,module,Magento_Wishlist
 Back,后退,module,Magento_Wishlist
 "Wish List is empty now.",现在的喜爱清单是空的。 ,module,Magento_Wishlist
 "* Required Fields",*必需填写,module,Magento_Wishlist
-"Sharing Information",该产品缺货,module,Magento_Wishlist
-"Email addresses, separated by commas",以逗号分隔的电子邮件地址,module,Magento_Wishlist
+"Sharing Information",产品暂时缺货,module,Magento_Wishlist
+"Email addresses, separated by commas",填写多于一个电邮地址时，请以逗号（,）分隔。,module,Magento_Wishlist
 "Check here to link an RSS feed to your Wish List.","在这里请检查链接的 RSS 饲料您喜爱清单。",module,Magento_Wishlist
 "Last Added Items",最后添加的项,module,Magento_Wishlist
 "Remove This Item",删除该内容,module,Magento_Wishlist
 "Go to Wish List",去希望列表,module,Magento_Wishlist
-"You have no items in your wish list.",您有喜爱清单中没有的项目。,module,Magento_Wishlist
+"You have no items in your wish list.",您没有加入产品至喜爱清单。,module,Magento_Wishlist
 "%1 has been added to your Wish List.","%1 已加入喜爱清单。",module,Magento_Wishlist
 "Now Shopping by","筛选条件",theme,frontend/Magento/luma
 Previous,上一个,theme,frontend/Magento/luma
 Remove,删除,theme,frontend/Magento/luma
 "Remove This Item",删除该内容,theme,frontend/Magento/luma
-"Shop By","分类筛选",theme,frontend/Magento/luma
-"Filter By","分类筛选",theme,frontend/Magento/luma
+"Shop By","筛选条件",theme,frontend/Magento/luma
+"Filter By","筛选条件",theme,frontend/Magento/luma
 "Clear All",清除全部,theme,frontend/Magento/luma
 "Shopping Options",配送方式选择,theme,frontend/Magento/luma
 "Place Order","确认付款",module,Magento_Authorizenet
@@ -5807,7 +5812,7 @@ Total:,总数:,module,Magento_Checkout
 "Billing Address:",账单地址:,module,Magento_Checkout
 "Shipping Address:",收货地址：,module,Magento_Checkout
 "Shipping Method:",送货方法：,module,Magento_Checkout
-"Payment Method:",支付方式:,module,Magento_Checkout
+"Payment Method:",付款方法:,module,Magento_Checkout
 "Date & Time:",日期时间：,module,Magento_Checkout
 "Sign In",登入,module,Magento_Checkout
 "Sign Up/Sign In","注册/登入",module,Magento_Customer
@@ -5817,7 +5822,7 @@ Password,密码,module,Magento_Checkout
 "My billing and shipping address are the same",送货地址和账单地址一样,module,Magento_Checkout
 Update,更新,module,Magento_Checkout
 Cancel,保存,module,Magento_Checkout
-"Save in address book",保存到地址簿,module,Magento_Checkout
+"Save in address book",储存至“通讯地址”,module,Magento_Checkout
 "Estimated Total",估计总额,module,Magento_Checkout
 "You can create an account after checkout.",您可以在结账后创建帐户。 ,module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.",您已经有账号了，可以登录或继续使用游客账号,module,Magento_Checkout
@@ -5825,7 +5830,7 @@ Login,登录,module,Magento_Checkout
 Close,关闭,module,Magento_Checkout
 item,件,module,Magento_Checkout
 items,件,module,Magento_Checkout
-"Go to Checkout",立即结帐,module,Magento_Checkout
+"Go to Checkout","立即结账",module,Magento_Checkout
 "Recently added item(s)",最近添加的商品,module,Magento_Checkout
 "View and edit cart",查看和修改购物清单,module,Magento_Checkout
 "See Details",查看详细信息,module,Magento_Checkout
@@ -5846,8 +5851,8 @@ Remove,删除,module,Magento_Checkout
 "SF Store","顺丰站",module,Magento_Checkout
 "Service Type","服务种类",module,Magento_Checkout
 "Reset","重设",module,Magento_Checkout
-"District","地区",module,Magento_Checkout
-"Village / Town","城市",module,Magento_Checkout
+"District","区域",module,Magento_Checkout
+"Village / Town","地区",module,Magento_Checkout
 "S.F express Store","顺丰中心",module,Magento_Checkout
 "Outside Hong Kong","香港以外地址",module,Magento_Checkout
 "Hong Kong Address","香港地址",module,Magento_Checkout
@@ -5857,13 +5862,13 @@ Remove,删除,module,Magento_Checkout
 "Ship To:",送货到:,module,Magento_Checkout
 edit,编辑,module,Magento_Checkout
 "Shipping Address",送货地址,module,Magento_Checkout
-"New Address",在“送货地址”中选择，或输入新地址。,module,Magento_Checkout
+"New Address",在“通讯地址”中选择，或输入新地址。,module,Magento_Checkout
 "Shipping Methods",运送方法,module,Magento_Checkout
 "Select Method",选择方法,module,Magento_Checkout
 "Method Title",方法标题,module,Magento_Checkout
 "Carrier Title",承运人名字,module,Magento_Checkout
 Next,下一个,module,Magento_Checkout
-"Sorry, no quotes are available for this order at this time",抱歉，这个订单目前没有报价,module,Magento_Checkout
+"Sorry, no quotes are available for this order at this time","请先填写送货地址",module,Magento_Checkout
 "Order Summary",订单,module,Magento_Checkout
 "Item in Cart",购物里的商品,module,Magento_Checkout
 "Items in Cart",购物里的商品,module,Magento_Checkout
@@ -5880,7 +5885,7 @@ Password:,密码:,module,Magento_Customer
 "Password you set when creating account",在创建帐户时设置的密码,module,Magento_Customer
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","忘记了您的帐户密码?点击<a href=""%reset_url""> 这里</a> 重置它。",module,Magento_Customer
 "When you sign in to your account, you will be able to:",当您登录到您的帐户时，您将能够:,module,Magento_Customer
-"Proceed through checkout faster",更快地进行结帐,module,Magento_Customer
+"Proceed through checkout faster",更快地进行结账,module,Magento_Customer
 "Check the status of orders",检查订单的状态,module,Magento_Customer
 "View past orders",查看过去的订单,module,Magento_Customer
 "Store alternative addresses (for shipping to multiple family members and friends)","存储备用地址 (用于运送到多个家庭成员和朋友)",module,Magento_Customer
@@ -5896,7 +5901,7 @@ Password:,密码:,module,Magento_Customer
 "See order and shipping status",请参阅顺序和传送状态,module,Magento_Customer
 "Track order history",跟踪订单历史记录,module,Magento_Customer
 "Check out faster",更快地查阅,module,Magento_Customer
-"Checkout out using your account",使用您的帐户结帐,module,Magento_Customer
+"Checkout out using your account",使用您的帐户结账,module,Magento_Customer
 "Email Address",电邮地址,module,Magento_Customer
 "Change Email and Password","更改电邮及密码",module,Magento_Customer
 "Currency Update Warnings",货币更新警告,module,Magento_Directory
@@ -5911,9 +5916,9 @@ Update,更新,module,Magento_GiftMessage
 "Gift options",礼物选项,module,Magento_GiftMessage
 Edit,编辑,module,Magento_GiftMessage
 Delete,删除,module,Magento_GiftMessage
-"Thank you for subscribing to our newsletter.",感谢您的订购我们的时事通讯。 ,module,Magento_Newsletter
-"To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:",要开始接收时事通讯，必须首先通过点击下面的链接确认您的订阅:,module,Magento_Newsletter
-"You have been successfully subscribed to our newsletter.",您已成功订阅我们的时事通讯。 ,module,Magento_Newsletter
+"Thank you for subscribing to our newsletter.",感谢您的订购我们的电子报。 ,module,Magento_Newsletter
+"To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:",要开始接收电子报，必须首先通过点击下面的链接确认您的订阅:,module,Magento_Newsletter
+"You have been successfully subscribed to our newsletter.",您已成功订阅我们的电子报。 ,module,Magento_Newsletter
 "You have been unsubscribed from the newsletter.",您已经取消订阅新闻通讯。 ,module,Magento_Newsletter
 "Place Order","确认付款",module,Magento_OfflinePayments
 "Place Order","确认付款",module,Magento_Payment
@@ -5927,6 +5932,8 @@ Delete,删除,module,Magento_GiftMessage
 "Enter discount code",请输入电子优惠码,module,Magento_SalesRule
 "Apply Discount",使用优惠,module,Magento_SalesRule
 "Cancel coupon",取消折扣,module,Magento_SalesRule
+"Your coupon was successfully removed.","取消优惠码成功。",module,Magento_SalesRule
+"Your coupon was successfully applied.","使用优惠码成功。",module,Magento_SalesRule
 "%name,",%名称，,module,Magento_Sales
 "Thank you for your order from %store_name.","谢谢您的订单从 %store_name。",module,Magento_Sales
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","通过<a href=""%account_url""> 登录到您的帐户</a>，可以检查您的订单状态。",module,Magento_Sales
@@ -5989,7 +5996,7 @@ Password:,密码:,theme,frontend/Magento/luma
 "Your Credit Memo #%creditmemo_id for Order #%order_id","您信用秩序 #%order_id 的备注 #%creditmemo_id",theme,frontend/Magento/luma
 "Billing Info",付费信息,theme,frontend/Magento/luma
 "Shipping Info",航运信息,theme,frontend/Magento/luma
-"Payment Method",支付方式,theme,frontend/Magento/luma
+"Payment Method",付款方法,theme,frontend/Magento/luma
 "Shipping Method",运送方式,theme,frontend/Magento/luma
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","您订单#%increment_id 已更新的状态为<strong>%order_status</strong>。",theme, frontend/Magento/luma
 "Your Invoice #%invoice_id for Order #%order_id","为订单 #%order_id 您发票 #%invoice_id",theme,frontend/Magento/luma
@@ -6045,7 +6052,7 @@ Shipping,运费,module,Magento_Checkout
 Allow,允许,module,Magento_Integration
 Done,完成,module,Magento_Integration
 "We can't complete your order because you don't have a payment method set up.",因为您没有设置的付款方式，我们无法完成您的订单。 ,module,Magento_Multishipping
-"Please choose a payment method.",请选择支付方式,module,Magento_Multishipping
+"Please choose a payment method.",请选择付款方法,module,Magento_Multishipping
 "Sorry, something went wrong.",对不起，出错了。 ,module,Magento_Paypal
 "Sorry, something went wrong. Please try again later.","对不起， 出错了，请稍候再试",module,Magento_Paypal
 "New Video",新视频,module,Magento_ProductVideo
@@ -6091,7 +6098,7 @@ OK,确定,module,Magento_Checkout
 "Please use only letters (az or AZ), numbers (0-9), spaces and ""#"" in this field.","请只使用字母(a 到z 或A 到Z)，数字(0- 9)，空格和""#""在这一领域。",module,Magento_Ui
 "Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","请输入有效的电话号码。例如(123) 456-7890 或123-456-7890。",module ,Magento_Ui
 "Please enter a valid fax number (Ex: 123-456-7890).","请输入有效的传真号码 (Ex: 123-456-7890)。",module,Magento_Ui
-"Please enter a valid email address (Ex: johndoe@domain.com).","请输入一个有效的电邮地址（E.g. chantaiman123@eugenebaby.com）。",module,Magento_Ui
+"Please enter a valid email address (Ex: johndoe@domain.com).","请输入一个有效的电邮地址（E.G. chantaiman123@example.com）。",module,Magento_Ui
 "Please enter 7 or more characters, using both numeric and alphabetic.","请输入 7 或更多个字符，使用数字和字母。",module,Magento_Ui
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","请输入一个有效的URL。协议是需要(http://、 https://或ftp: / /)。",module,Magento_Ui
 "Please enter a valid URL. For example http://www.example.com or www.example.com.","请输入一个有效的URL。例如http://www.example.com 或www.example. com。",module,Magento_Ui
@@ -6103,7 +6110,7 @@ OK,确定,module,Magento_Checkout
 "Please enter a number 0 or greater in this field.",请在该字段中输入有效数字。 ,module,Magento_Ui
 "Please enter a number greater than 0 in this field.","请在此字段中输入大于 0 的数字。",module,Magento_Ui
 "Please input a valid CSS-length (Ex: 100px, 77pt, 20em, .5ex or 50%).","请输入一个有效的CSS 长度(Ex: 100px，77pt，20em，.5ex 或50%)。 ",module,Magento_Ui
-"Please enter a valid number in this field.",请在此字段中输入一个有效的数字。 ,module,Magento_Ui
+"Please enter a valid number in this field.",请输入有效数字。 ,module,Magento_Ui
 "The value is not within the specified range.",值不是在指定的范围之内。 ,module,Magento_Ui
 "Please use letters only (a-z or A-Z) in this field.","请仅使用字母 (a 到 z 或 A 到 Z) 在这一领域。",module,Magento_Ui
 "Please use only letters (az), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","请使用唯一字母(az)，数字(0-9)或下划线(_) 在这一领域，和第一个字符应该是一封信。",module,Magento_Ui
@@ -6355,7 +6362,7 @@ Debug,调试,module,Magento_Braintree
 "PayPal through Braintree",布伦特里通过贝宝,module,Magento_Braintree
 "Override Merchant Name",重写商户名称,module,Magento_Braintree
 "Require Customer's Billing Address",需要客户的账单地址,module,Magento_Braintree
-"Allow to Edit Shipping Address Entered During Checkout on PayPal Side",允许编辑航运贝宝一边在结帐时输入地址,module,Magento_Braintree
+"Allow to Edit Shipping Address Entered During Checkout on PayPal Side",允许编辑航运贝宝一边在结账时输入地址,module,Magento_Braintree
 "Display on Shopping Cart",在购物车上的显示,module,Magento_Braintree
 "3D Secure Verification Settings","3D 安全验证设置",module,Magento_Braintree
 "3D Secure Verification","3D 安全验证",module,Magento_Braintree
@@ -6366,7 +6373,7 @@ Debug,调试,module,Magento_Braintree
 Select...,选择...,module,Magento_Braintree
 Status,状态,module,Magento_Braintree
 "Transaction Type",交易类型,module,Magento_Braintree
-"Payment Type",支付方式,module,Magento_Braintree
+"Payment Type",付款方法,module,Magento_Braintree
 "PayPal Payment ID","贝宝PayPal付款 ID",module,Magento_Braintree
 "Created At",创建于,module,Magento_Braintree
 "Transaction ID","交易记录 ID",module,Magento_Braintree
@@ -6585,7 +6592,7 @@ Values,价值,module,Magento_Catalog
 "Add this attribute to the list of filter options in the product grid.",将此属性添加到产品网格的过滤选项列表。 ,module,Magento_Catalog
 System,系统,module,Magento_Catalog
 "All Store Views",所有商店界面,module,Magento_Catalog
-"Delete items",删除项目,module,Magento_Catalog
+"Delete items",删除产品,module,Magento_Catalog
 "Delete selected items?",删除所选的项目吗?,module,Magento_Catalog
 "Change status",更改状态,module,Magento_Catalog
 Enable,启用,module,Magento_Catalog
@@ -6596,8 +6603,8 @@ Overview,概述,module,Magento_Catalog
 Details,产品详情,module,Magento_Catalog
 "Enable Terms and Conditions",启用的条款和条件,module,Magento_CheckoutAgreements
 "Checkout Options",结账选项,module,Magento_Checkout
-"Enable Onepage Checkout",使用同一页面结帐,module,Magento_Checkout
-"Allow Guest Checkout",允许游客结帐,module,Magento_Checkout
+"Enable Onepage Checkout",使用同一页面结账,module,Magento_Checkout
+"Allow Guest Checkout",允许游客结账,module,Magento_Checkout
 "Quote Lifetime (days)","引述有效期 (天)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart",将产品加入购物车后将重定向到购物车页面,module,Magento_Checkout
 "My Cart Link",我购物车链接,module,Magento_Checkout
@@ -6878,8 +6885,8 @@ Downloads,下载附件,module,Magento_Downloadable
 "Default Link Title",默认链接标题,module,Magento_Downloadable
 "Open Links in New Window",在新窗口中打开链接,module,Magento_Downloadable
 "Use Content-Disposition",使用内容处置,module,Magento_Downloadable
-"Disable Guest Checkout if Cart Contains Downloadable Items",如果禁用来宾结帐车包含可下载的项目,module,Magento_Downloadable
-"Guest checkout will only work with shareable.",仅来宾结帐将可共享使用。 ,module,Magento_Downloadable
+"Disable Guest Checkout if Cart Contains Downloadable Items",如果禁用来宾结账车包含可下载的项目,module,Magento_Downloadable
+"Guest checkout will only work with shareable.",仅来宾结账将可共享使用。 ,module,Magento_Downloadable
 "EAV types and attributes","EAV 类型和属性",module,Magento_Eav
 "Entity types declaration cache",实体类型声明缓存,module,Magento_Eav
 Communications,通讯,module,Magento_Email
@@ -7013,7 +7020,7 @@ General,基本的,module,Magento_NewRelicReporting
 "New Relic Application Name",新的遗留应用程序名称,module,Magento_NewRelicReporting
 "This is located by navigating to Settings from the New Relic APM website","这位于通过导航到设置从新文物 APM 网站",module,Magento_NewRelicReporting
 "Enable Cron","启用 Cron",module,Magento_NewRelicReporting
-"Subscription Options",订阅资讯,module,Magento_Newsletter
+"Subscription Options",订阅电子报,module,Magento_Newsletter
 "Allow Guest Subscription",允许客人订阅,module,Magento_Newsletter
 "Need to Confirm",需要确认,module,Magento_Newsletter
 "Confirmation Email Sender",确认电子邮件发件人,module,Magento_Newsletter
@@ -7045,13 +7052,13 @@ Customer,客户,module,Magento_Newsletter
 "Customer First Name",客户名字,module,Magento_Newsletter
 "Customer Last Name",客户姓氏,module,Magento_Newsletter
 "Not Activated",未激活,module,Magento_Newsletter
-Subscribed,订阅资讯,module,Magento_Newsletter
+Subscribed,订阅电子报,module,Magento_Newsletter
 Unsubscribed,取消订阅资讯,module,Magento_Newsletter
 Unconfirmed,未经证实的,module,Magento_Newsletter
 "Web Site",网站,module,Magento_Newsletter
 Store,商店,module,Magento_Newsletter
 "Store View",商店界面,module,Magento_Newsletter
-"Newsletter Subscriptions",订阅资讯,module,Magento_Newsletter
+"Newsletter Subscriptions",订阅电子报,module,Magento_Newsletter
 "Check / Money Order",支票/汇票,module,Magento_OfflinePayments
 Enabled,启动,module,Magento_OfflinePayments
 "New Order Status",新订单状态,module,Magento_OfflinePayments
@@ -7111,10 +7118,10 @@ Import,导入,module,Magento_OfflineShipping
 "Payments Pro and Express Checkout","付款 Pro 和快递签出",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","基本设置-PayPal 付款临",module,Magento_Paypal
 "PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>","所有在一贝宝付款解决方案<i>接受、 过程信用卡和PayPal 付款。 </i>",module,Magento_Paypal
-"Accept payments with a completely customizable checkout page.",接受支付完全可定制的结帐页面。 ,module,Magento_Paypal
+"Accept payments with a completely customizable checkout page.",接受支付完全可定制的结账页面。 ,module,Magento_Paypal
 "Process payments using your own internet merchant account.",使用您自己的互联网商家帐户的处理付款。 ,module,Magento_Paypal
-"Express Checkout",快速结帐,module,Magento_Paypal
-"Add PayPal as an additional payment method to your checkout page.",贝宝作为一种额外的付款方法添加到结帐页面。 ,module,Magento_Paypal
+"Express Checkout",快速结账,module,Magento_Paypal
+"Add PayPal as an additional payment method to your checkout page.",贝宝作为一种额外的付款方法添加到结账页面。 ,module,Magento_Paypal
 "Required PayPal Settings",所需的贝宝设置,module,Magento_Paypal
 "Email Associated with PayPal Merchant Account (Optional)","与贝宝商人帐户 (可选) 关联的电子邮件",module,Magento_Paypal
 "Don't have a PayPal account? Simply enter your email address.","难道没有一个 PayPal 帐户吗?只需输入您的电子邮件地址。",module,Magento_Paypal
@@ -7138,7 +7145,7 @@ Size,尺寸,module,Magento_Paypal
 "Catalog Category Page",目录类别页,module,Magento_Paypal
 "Catalog Product Page",目录产品页,module,Magento_Paypal
 "Checkout Cart Page",签出购物车页面,module,Magento_Paypal
-"Basic Settings - PayPal Express Checkout",基本设置-贝宝快速结帐,module,Magento_Paypal
+"Basic Settings - PayPal Express Checkout",基本设置-贝宝快速结账,module,Magento_Paypal
 Title,标题,module,Magento_Paypal
 "It is recommended to set this value to ""PayPal"" per store views.","它建议设置此值与""贝宝""每一个商店界面。",module,Magento_Paypal
 "Sort Order",排序,module,Magento_Paypal
@@ -7162,7 +7169,7 @@ Title,标题,module,Magento_Paypal
 "If this option is enabled, customer can change shipping address and shipping method on PayPal website. In live mode works via HTTPS protocol only.","如果启用此选项，则客户可以更改送货地址和送货方式在贝宝网站上。在实时模式中工作通过HTTPS 协议只。",module,Magento_Paypal
 "Notice that PayPal can handle up to 10 shipping options. That is why Magento will tr​​ansfer only first 10 cheapest shipping options if there are more than 10 available.","请注意，PayPal 可以处理达10 送货选项。这就是为什么Magento 将转移只有首先10 最便宜的运输选项，如果超过10。",module,Magento_Paypal
 "Shortcut Buttons Flavor",快捷方式按钮风味,module,Magento_Paypal
-"Enable PayPal Guest Checkout",启用贝宝来宾结帐,module,Magento_Paypal
+"Enable PayPal Guest Checkout",启用贝宝来宾结账,module,Magento_Paypal
 "Ability for buyer to purchase without PayPal account.","买方购买没有 PayPal 帐户的能力。",module,Magento_Paypal
 "Require Customer's Billing Address",需要客户的账单地址,module,Magento_Paypal
 "This feature needs be enabled first for the merchant account through PayPal technical support.",通过贝宝技术支持的商人帐户，需要首先启用此功能。 ,module,Magento_Paypal
@@ -7300,7 +7307,7 @@ Inactive,未激活,module,Magento_Review
 "RSS Feeds","RSS 源",module,Magento_Rss
 "Rss Config","Rss 配置",module,Magento_Rss
 "Enable RSS","启动 RSS",module,Magento_Rss
-"Auto Generated Specific Coupon Codes",自动生成特定的优惠券代码,module,Magento_SalesRule
+"Auto Generated Specific Coupon Codes",自动生成特定的优惠码代码,module,Magento_SalesRule
 "Web Site",网站,module,Magento_SalesRule
 Priority,优先级,module,Magento_SalesRule
 "Cart Price Rule",购物车价格规则,module,Magento_SalesRule
@@ -7311,7 +7318,7 @@ Websites,网站,module,Magento_SalesRule
 "Customer Groups",客户组,module,Magento_SalesRule
 Coupon,折扣券,module,Magento_SalesRule
 "Use Auto Generation",使用自动生成,module,Magento_SalesRule
-"Uses per Coupon",每张优惠券的使用,module,Magento_SalesRule
+"Uses per Coupon",每张优惠码的使用,module,Magento_SalesRule
 "Uses per Customer",每个客户的用途,module,Magento_SalesRule
 From,从,module,Magento_SalesRule
 To,至,module,Magento_SalesRule
@@ -7340,7 +7347,7 @@ Enable,启用,module,Magento_Sales
 "Description Message",描述消息,module,Magento_Sales
 "This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.","低于的最小允许金额小计(打折后) 时，将购物车中显示此消息。 ",module,Magento_Sales
 "Error to Show in Shopping Cart",显示购物车中的错误,module,Magento_Sales
-"Validate Each Address Separately in Multi-address Checkout",验证每个地址分别在多地址结帐,module,Magento_Sales
+"Validate Each Address Separately in Multi-address Checkout",验证每个地址分别在多地址结账,module,Magento_Sales
 "Multi-address Description Message",多地址描述消息,module,Magento_Sales
 "We'll use the default description above if you leave this empty.",如果您离开这空，我们可以使用上面的默认说明。 ,module,Magento_Sales
 "Multi-address Error to Show in Shopping Cart",多地址错误显示在购物车,module,Magento_Sales
@@ -7432,7 +7439,7 @@ Created,建立日期,module,Magento_Sales
 "Grand Total (Base)",结算货币金额,module,Magento_Sales
 "Grand Total (Purchased)","总计 (购买)",module,Magento_Sales
 "Customer Email",客户电子邮件,module,Magento_Sales
-"Shipping and Handling",运费和手续费,module,Magento_Sales
+"Shipping and Handling",运费,module,Magento_Sales
 "PDF Invoices","PDF 发票",module,Magento_Sales
 "PDF Shipments","PDF 发货",module,Magento_Sales
 "Search Engine",搜索引擎,module,Magento_Search
@@ -7708,29 +7715,155 @@ Action,操作,module,Magento_Wishlist
 Configure,配置,module,Magento_Wishlist
 Delete,删除,module,Magento_Wishlist
 "Product Details and Comment",产品详细信息和评论,module,Magento_Wishlist"Product Details and Comment",产品详细信息和评论,module,Magento_Wishlist"Product Details and Comment",产品详细信息和评论,module,Magento_Wishlist
+"Reward Points","积分",module,Mirasvit_Rewards
+"Reward Points.","积分。",module,Mirasvit_Rewards
+Rewards Information,积分奖赏资讯,module,Mirasvit_Rewards
+Available Points Balance,可用积金结算,module,Mirasvit_Rewards
+Change Balance,Change Balance,module,Mirasvit_Rewards
+Enter positive or negative number of points. E.g. 10 or -10,Enter positive or negative number of points. E.g. 10 or -10,module,Mirasvit_Rewards
+Message in the rewards history,Message in the rewards history,module,Mirasvit_Rewards
+Customer will see this in his account,Customer will see this in his account,module,Mirasvit_Rewards
+No Records Found,No Records Found,module,Mirasvit_Rewards
+ID,ID,module,Mirasvit_Rewards
+Balance Change,Balance Change,module,Mirasvit_Rewards
+Comment,备注,module,Mirasvit_Rewards
+Created At,Created At,module,Mirasvit_Rewards
+Expires At,Expires At,module,Mirasvit_Rewards
+Earning Rules,Earning Rules,module,Mirasvit_Rewards
+Add New Earning Rule,Add New Earning Rule,module,Mirasvit_Rewards
+Save,储存,module,Mirasvit_Rewards
+Delete,删除,module,Mirasvit_Rewards
+Save And Continue Edit,Save And Continue Edit,module,Mirasvit_Rewards
+Edit Earning Rule '%1',Edit Earning Rule '%1',module,Mirasvit_Rewards
+Create New Earning Rule,Create New Earning Rule,module,Mirasvit_Rewards
+Conditions,Conditions,module,Mirasvit_Rewards
+Event,Event,module,Mirasvit_Rewards
+Number of Inactive Days,Number of Inactive Days,module,Mirasvit_Rewards
+Actions,Actions,module,Mirasvit_Rewards
+Customer Earning Style,Customer Earning Style,module,Mirasvit_Rewards
+Number of points to give (X),Number of points to give (X),module,Mirasvit_Rewards
+Step (Y),Step (Y),module,Mirasvit_Rewards
+Quantity Step (Z),Quantity Step (Z),module,Mirasvit_Rewards
+Maximum number of earned points for one customer per day,Maximum number of earned points for one customer per day,module,Mirasvit_Rewards
+Set 0 to disable limit,Set 0 to disable limit,module,Mirasvit_Rewards
+Apply the rule only if the following conditions are met,Apply the rule only if the following conditions are met,module,Mirasvit_Rewards
+Number of Points (X),Number of Points (X),module,Mirasvit_Rewards
+Earn Maximum,Earn Maximum,module,Mirasvit_Rewards
+Apply the rule only to cart items matching the following conditions (leave blank for all items),Apply the rule only to cart items matching the following conditions (leave blank for all items),module,Mirasvit_Rewards
+Apply To,Apply To,module,Mirasvit_Rewards
+Apply the rule only if the following conditions are met (leave blank for all products),Apply the rule only if the following conditions are met (leave blank for all products),module,Mirasvit_Rewards
+General Information,General Information,module,Mirasvit_Rewards
+Rule Name,Rule Name,module,Mirasvit_Rewards
+Type,类别,module,Mirasvit_Rewards
+Is Active,Is Active,module,Mirasvit_Rewards
+No,否,module,Mirasvit_Rewards
+Yes,是,module,Mirasvit_Rewards
+Active From,Active From,module,Mirasvit_Rewards
+Active To,Active To,module,Mirasvit_Rewards
+Websites,Websites,module,Mirasvit_Rewards
+Customer Groups,Customer Groups,module,Mirasvit_Rewards
+Stop further rules processing,Stop further rules processing,module,Mirasvit_Rewards
+Priority,Priority,module,Mirasvit_Rewards
+Arranged in the ascending order. 0 is the highest.,Arranged in the ascending order. 0 is the highest.,module,Mirasvit_Rewards
+Notifications,Notifications,module,Mirasvit_Rewards
+Message for customer notification email,Message for customer notification email,module,Mirasvit_Rewards
+Filters,Filters,module,Mirasvit_Rewards
+Maximum Distributed Points,Maximum Distributed Points,module,Mirasvit_Rewards
+Conditions & Actions,Conditions & Actions,module,Mirasvit_Rewards
+Number of points to earn,Number of points to earn,module,Mirasvit_Rewards
+All,全部,module,Mirasvit_Rewards
+Website,Website,module,Mirasvit_Rewards
+Disabled,Disabled,module,Mirasvit_Rewards
+Enabled,Enabled,module,Mirasvit_Rewards
+Change status,Change status,module,Mirasvit_Rewards
+Status,Status,module,Mirasvit_Rewards
+Are you sure?,Are you sure?,module,Mirasvit_Rewards
+Spending Rules,Spending Rules,module,Mirasvit_Rewards
+Notification Rules,Notification Rules,module,Mirasvit_Rewards
+Transactions,Transactions,module,Mirasvit_Rewards
+Customer Referrals,Customer Referrals,module,Mirasvit_Rewards
+Settings,Settings,module,Mirasvit_Rewards
+Add New Notification Rule,Add New Notification Rule,module,Mirasvit_Rewards
+Edit Notification Rule '%1',Edit Notification Rule '%1',module,Mirasvit_Rewards
+Create New Notification Rule,Create New Notification Rule,module,Mirasvit_Rewards
+Show message on,Show message on,module,Mirasvit_Rewards
+Message,Message,module,Mirasvit_Rewards
+"If you insert a variable like ##100.00, it will be converted to the price in currency of customer. E.g. ##100.00 will be displayed as '$100.00' in USD and as '€88' in Euro.<br><br>","If you insert a variable like ##100.00, it will be converted to the price in currency of customer. E.g. ##100.00 will be displayed as '$100.00' in USD and as '€88' in Euro.<br><br>",module,Mirasvit_Rewards
+Edit Referral '%1',Edit Referral '%1',module,Mirasvit_Rewards
+Create New Referral,Create New Referral,module,Mirasvit_Rewards
+Affiliate Customer,Affiliate Customer,module,Mirasvit_Rewards
+Referral Customer,Referral Customer,module,Mirasvit_Rewards
+Referral Email,Referral Email,module,Mirasvit_Rewards
+Referral Name,Referral Name,module,Mirasvit_Rewards
+Store,Store,module,Mirasvit_Rewards
+Add New Spending Rule,Add New Spending Rule,module,Mirasvit_Rewards
+Edit Spending Rule '%1',Edit Spending Rule '%1',module,Mirasvit_Rewards
+Create New Spending Rule,Create New Spending Rule,module,Mirasvit_Rewards
+For each spent X points,For each spent X points,module,Mirasvit_Rewards
+Customer receive Y discount,Customer receive Y discount,module,Mirasvit_Rewards
+Spend minimum,Spend minimum,module,Mirasvit_Rewards
+Spend maximum,Spend maximum,module,Mirasvit_Rewards
+Discount,折扣,module,Mirasvit_Rewards
+Are you sure ?,您确定吗 ?,module,Mirasvit_Rewards
+Add New Transaction,Add New Transaction,module,Mirasvit_Rewards
+Edit Transaction '%1',Edit Transaction '%1',module,Mirasvit_Rewards
+Create New Transaction,Create New Transaction,module,Mirasvit_Rewards
+Name,姓名,module,Mirasvit_Rewards
+Email,电邮,module,Mirasvit_Rewards
+Group,群组,module,Mirasvit_Rewards
+Telephone,电话,module,Mirasvit_Rewards
+ZIP,ZIP,module,Mirasvit_Rewards
+Country,国家,module,Mirasvit_Rewards
+State/Province,地区,module,Mirasvit_Rewards
+Customer Since,客户登记日期,module,Mirasvit_Rewards
+Points Balance Change,积分转变,module,Mirasvit_Rewards
+Customer Name,客户名称,module,Mirasvit_Rewards
+Customer Email,客户电邮,module,Mirasvit_Rewards
+Action,Action,module,Mirasvit_Rewards
 "Check this out! %1","快来看看! %1",module,Mirasvit_Rewards
+"Checkout now and earn <b>%1</b> for this order.","会员结账后可获得 <b>%1</b>。",module,Mirasvit_Rewards
 "Applies only to registered customers, may vary when logged in.","请登入以确认可获积分。",module,Mirasvit_Rewards
-"Share with Friends","分享给朋友",module,Mirasvit_Rewards
-"Share the referal link in the social media and get points!","分享以下的连结给好友，齐齐赚取积分奖赏",module,Mirasvit_Rewards
-"Check this out!","快来看看!",module,Mirasvit_Rewards
-"Your referral link:","分享您的连结:",module,Mirasvit_Rewards
-"Send Invitations","送出邀请",module,Mirasvit_Rewards
-"Enter contacts of your friends to invite them.","请输入您朋友的电邮地址",module,Mirasvit_Rewards
-"Referrals","已推荐的好友",module,Mirasvit_Rewards
-"There are no Referrals","没有我推荐的人",module,Mirasvit_Rewards
-"Points Summary","累计积分奖赏",module,Mirasvit_Rewards
-"Expires","到期日",module,Mirasvit_Rewards
-"Points","积分",module,Mirasvit_Rewards
-"Message Sent","已送出邀请",module,Mirasvit_Rewards
-"Visited by Referral Link","已送出邀请",module,Mirasvit_Rewards
-"Sent Email","已开启连结",module,Mirasvit_Rewards
-"You have <b>%1</b> in your account.","共有 <b>%1</b>",module,Mirasvit_Rewards
-"Your points balance will expire in %1 days.","您的积分将会于%1日内过期",module,Mirasvit_Rewards
-"Visit My Reward Points Section","跳至的的我的积分",module,Mirasvit_Rewards
-"My Reward Points","我的积分",module,Mirasvit_Rewards
-"Transactions History","消费记录",module,Mirasvit_Rewards
-"There are no Transactions.","您没有消费记录",module,Mirasvit_Rewards
-"Checkout now and earn <b>%1</b> for this order.","立即注册成为基本会员，结帐后可获到 <b>%1</b>。",module,Mirasvit_Rewards
+Rewards Points,积分奖赏,module,Mirasvit_Rewards
+Grid,Grid,module,Mirasvit_Rewards
+List,List,module,Mirasvit_Rewards
+Referral %1,Referral %1,module,Mirasvit_Rewards
+New Earning Rule,New Earning Rule,module,Mirasvit_Rewards
+Earning Rule was successfully deleted,Earning Rule was successfully deleted,module,Mirasvit_Rewards
+The Earning Rule does not exist.,The Earning Rule does not exist.,module,Mirasvit_Rewards
+Please select Earning Rule(s),Please select Earning Rule(s),module,Mirasvit_Rewards
+Total of %1 record(s) were successfully updated,Total of %1 record(s) were successfully updated,module,Mirasvit_Rewards
+Total of %1 record(s) were successfully deleted,Total of %1 record(s) were successfully deleted,module,Mirasvit_Rewards
+Earning Rule was successfully saved,Earning Rule was successfully saved,module,Mirasvit_Rewards
+Unable to find Earning Rule to save,Unable to find Earning Rule to save,module,Mirasvit_Rewards
+New Notification Rule,New Notification Rule,module,Mirasvit_Rewards
+Notification Rule was successfully deleted,Notification Rule was successfully deleted,module,Mirasvit_Rewards
+The Notification Rule does not exist.,The Notification Rule does not exist.,module,Mirasvit_Rewards
+Please select Notification Rule(s),Please select Notification Rule(s),module,Mirasvit_Rewards
+Notification Rule was successfully saved,Notification Rule was successfully saved,module,Mirasvit_Rewards
+Unable to find Notification Rule to save,Unable to find Notification Rule to save,module,Mirasvit_Rewards
+Please select Referral(s),Please select Referral(s),module,Mirasvit_Rewards
+New Spending Rule,New Spending Rule,module,Mirasvit_Rewards
+Spending Rule was successfully deleted,Spending Rule was successfully deleted,module,Mirasvit_Rewards
+The Spending Rule does not exist.,The Spending Rule does not exist.,module,Mirasvit_Rewards
+Please select Spending Rule(s),Please select Spending Rule(s),module,Mirasvit_Rewards
+Spending Rule was successfully saved,Spending Rule was successfully saved,module,Mirasvit_Rewards
+Unable to find Spending Rule to save,Unable to find Spending Rule to save,module,Mirasvit_Rewards
+New Transaction,New Transaction,module,Mirasvit_Rewards
+Transaction was successfully deleted,Transaction was successfully deleted,module,Mirasvit_Rewards
+Please select Transaction(s),Please select Transaction(s),module,Mirasvit_Rewards
+Transaction was successfully saved,Transaction was successfully saved,module,Mirasvit_Rewards
+Unable to find Transaction to save,Unable to find Transaction to save,module,Mirasvit_Rewards
+Cannot apply points.,Cannot apply points.,module,Mirasvit_Rewards
+You've earned %1 for Facebook Like!,You've earned %1 for Facebook Like!,module,Mirasvit_Rewards
+Facebook Like Points has been canceled,Facebook Like Points has been canceled,module,Mirasvit_Rewards
+You've earned %1 for Google+!,You've earned %1 for Google+!,module,Mirasvit_Rewards
+G+1 Points has been canceled,G+1 Points has been canceled,module,Mirasvit_Rewards
+You've earned %1 for Pin!,You've earned %1 for Pin!,module,Mirasvit_Rewards
+Customer with email %1 has been already invited to our store,Customer with email %1 has been already invited to our store,module,Mirasvit_Rewards
+Your invitations were sent. Thanks!,Your invitations were sent. Thanks!,module,Mirasvit_Rewards
+Error. PLease reload page and login twitter,Error. PLease reload page and login twitter,module,Mirasvit_Rewards
+You've earned %1 for Tweet!,You've earned %1 for Tweet!,module,Mirasvit_Rewards
+You'll get your%1 for Tweet shortly!,You'll get your%1 for Tweet shortly!,module,Mirasvit_Rewards
 "You received %1 for signing up","恭喜您成功注册并获得%1﹗",module,Mirasvit_Rewards
 "You received %1 for sending this product","分享成功，得到%1",module,Mirasvit_Rewards
 "You received %1 for sign up for newsletter","订阅成功，得到%1",module,Mirasvit_Rewards
@@ -7744,20 +7877,22 @@ Delete,删除,module,Magento_Wishlist
 "Maximum number is %1.","最多 is %1。",module,Mirasvit_Rewards
 "%1 was canceled.","%1 已取消。",module,Mirasvit_Rewards
 "Cannot apply %1.","无法使用 %1.",module,Mirasvit_Rewards
-"Points Summary","累计积分奖赏",module,Mirasvit_Rewards
-"You have <b>%1</b> in your account.","共有 <b>%1</b> 。",module,Mirasvit_Rewards
-"You have","您共有",module,Mirasvit_Rewards
-"Reward Points","积分奖赏",module,Mirasvit_Rewards
-"You have <b>%1</b> available.","共有 <b>%1</b> 可用。",module,Mirasvit_Rewards
-"Enter amount of points to spend:","请输入要用的积分:",module,Mirasvit_Rewards
-"Enter amount of points to spend","请输入要用的积分",module,Mirasvit_Rewards
-"Use maximum %1","使用全部积分：%1分",module,Mirasvit_Rewards
-"Use maximum","使用全部积分",module,Mirasvit_Rewards
-"available.","可用。",module,Mirasvit_Rewards
-"Apply Points","使用积分",module,Mirasvit_Rewards
-"Apply","使用",module,Mirasvit_Rewards
-"Cancel Points","取消积分使用",module,Mirasvit_Rewards
-"Cancel","取消",module,Mirasvit_Rewards
+You can use the following variables:,You can use the following variables:,module,Mirasvit_Rewards
+Pattern,Pattern,module,Mirasvit_Rewards
+Attribute Value,Attribute Value,module,Mirasvit_Rewards
+Default,Default,module,Mirasvit_Rewards
+Integer,Integer,module,Mirasvit_Rewards
+Price,价格,module,Mirasvit_Rewards
+Strip Tags,Strip Tags,module,Mirasvit_Rewards
+Primary Attributes,Primary Attributes,module,Mirasvit_Rewards
+Stock Attributes,Stock Attributes,module,Mirasvit_Rewards
+Prices & Taxes,Prices & Taxes,module,Mirasvit_Rewards
+Images,图片,module,Mirasvit_Rewards
+Custom Attributes,Custom Attributes,module,Mirasvit_Rewards
+Mapping,Mapping,module,Mirasvit_Rewards
+Category,类别,module,Mirasvit_Rewards
+Amasty Meta Tags,Amasty Meta Tags,module,Mirasvit_Rewards
+Others Attributes,Others Attributes,module,Mirasvit_Rewards
 "You Earn","赚取",module,Mirasvit_Rewards
 "You Spend","使用",module,Mirasvit_Rewards
 "Customer signs up in store","客户注册帐户",module,Mirasvit_Rewards
@@ -7767,14 +7902,154 @@ Delete,删除,module,Magento_Wishlist
 "Customer writes a product's review","客户编写产品评论",module,Mirasvit_Rewards
 "Customer has a birthday","客户生日",module,Mirasvit_Rewards
 "Customer is not active for long time","客户不再活跃",module,Mirasvit_Rewards
+Facebook Like,Facebook Like,module,Mirasvit_Rewards
+Twitter Tweet,Twitter Tweet,module,Mirasvit_Rewards
+Google+ Like,Google+ Like,module,Mirasvit_Rewards
+Pinterest Pin,Pinterest Pin,module,Mirasvit_Rewards
+Referred customer signs up in store,Referred customer signs up in store,module,Mirasvit_Rewards
+Order from referred customer,Order from referred customer,module,Mirasvit_Rewards
+Points to Currency,Points to Currency,module,Mirasvit_Rewards
+Currency to Points,Currency to Points,module,Mirasvit_Rewards
+Customer Account > My Reward Points,Customer Account > My Reward Points,module,Mirasvit_Rewards
+Customer Account > My Referrals,Customer Account > My Referrals,module,Mirasvit_Rewards
+Cart Page,Cart Page,module,Mirasvit_Rewards
+"Message Sent","送出邀请",module,Mirasvit_Rewards
+Signed Up,登记帐号,module,Mirasvit_Rewards
+Made Order,好友已购物,module,Mirasvit_Rewards
+"Visited by Referral Link","经介绍朋友连结进入",module,Mirasvit_Rewards
+Subtotal + Tax,Subtotal + Tax,module,Mirasvit_Rewards
+Subtotal + Tax + Shipping,Subtotal + Tax + Shipping,module,Mirasvit_Rewards
+Product Rule,Product Rule,module,Mirasvit_Rewards
+Cart Rule,Cart Rule,module,Mirasvit_Rewards
+Behavior Rule,Behavior Rule,module,Mirasvit_Rewards
+Transaction #%1 is expired,Transaction #%1 is expired,module,Mirasvit_Rewards
+Update the Product,Update the Product,module,Mirasvit_Rewards
+Conditions Combination,Conditions Combination,module,Mirasvit_Rewards
+Product attribute combination,Product attribute combination,module,Mirasvit_Rewards
+Products subselection,Products subselection,module,Mirasvit_Rewards
+Conditions combination,Conditions combination,module,Mirasvit_Rewards
+Cart Attribute,Cart Attribute,module,Mirasvit_Rewards
+Last 7-days Clicks,Last 7-days Clicks,module,Mirasvit_Rewards
+Last 7-days Orders,Last 7-days Orders,module,Mirasvit_Rewards
+Last 7-days Revenue,Last 7-days Revenue,module,Mirasvit_Rewards
+Is Referral,Is Referral,module,Mirasvit_Rewards
+Lifetime Sales,Lifetime Sales,module,Mirasvit_Rewards
+Number of Orders,订单数量,module,Mirasvit_Rewards
+Is subscriber of newsletter,Is subscriber of newsletter,module,Mirasvit_Rewards
+Number of reviews,Number of reviews,module,Mirasvit_Rewards
+Number of referred friends signups,Number of referred friends signups,module,Mirasvit_Rewards
+Number of referred friends orders,Number of referred friends orders,module,Mirasvit_Rewards
+Sum of referred friends orders,Sum of referred friends orders,module,Mirasvit_Rewards
+Number of referred friends ordered at least once,Number of referred friends ordered at least once,module,Mirasvit_Rewards
+Not registered,Not registered,module,Mirasvit_Rewards
+Attribute Set,Attribute Set,module,Mirasvit_Rewards
+Quantity,数量,module,Mirasvit_Rewards
+Product Type,产品类别,module,Mirasvit_Rewards
+Base Image,Base Image,module,Mirasvit_Rewards
+Thumbnail,Thumbnail,module,Mirasvit_Rewards
+Small Image,Small Image,module,Mirasvit_Rewards
+Base Image Size (bytes),Base Image Size (bytes),module,Mirasvit_Rewards
+Thumbnail Size (bytes),Thumbnail Size (bytes),module,Mirasvit_Rewards
+Small Image Size (bytes),Small Image Size (bytes),module,Mirasvit_Rewards
+PHP Condition,PHP Condition,module,Mirasvit_Rewards
+Open Chooser,Open Chooser,module,Mirasvit_Rewards
+Referred: Group,Referred: Group,module,Mirasvit_Rewards
+Referred: Lifetime Sales,Referred: Lifetime Sales,module,Mirasvit_Rewards
+Referred: Number of Orders,Referred: Number of Orders,module,Mirasvit_Rewards
+Referred: Is subscriber of newsletter,Referred: Is subscriber of newsletter,module,Mirasvit_Rewards
+Referred: Number of reviews,Referred: Number of reviews,module,Mirasvit_Rewards
+-- Please Select --,-- Please Select --,module,Mirasvit_Rewards
+- Disable these emails -,- Disable these emails -,module,Mirasvit_Rewards
+Give X points to customer,Give X points to customer,module,Mirasvit_Rewards
+Give X points for every spent Y,Give X points for every spent Y,module,Mirasvit_Rewards
+Give X points for every Z quantity,Give X points for every Z quantity,module,Mirasvit_Rewards
+"For every Y, give X points","For every Y, give X points",module,Mirasvit_Rewards
+Pending,Pending,module,Mirasvit_Rewards
+Approved,Approved,module,Mirasvit_Rewards
+Discarded,Discarded,module,Mirasvit_Rewards
+-,-,module,Mirasvit_Rewards
 "%1 has been added.","%1 已加入您的帐户。",module,Mirasvit_Rewards
 "%1 has been deducted.","%1 已由您的帐户减去。",module,Mirasvit_Rewards
 "You earned %1 and spent %2 for this order.","是次购物可获取 %1 和用了 %2。",module,Mirasvit_Rewards
 "You spent %1 for this order.","是次购物您用了 %1。",module,Mirasvit_Rewards
 "You earned %1 for this order.","是次购物可获取 %1。",module,Mirasvit_Rewards
 "Earned points will be enrolled to your account after we finish processing your order.","是次积分奖赏将于交易完成后7-14个工作天内存入您的账户。",module,Mirasvit_Rewards
-"Earned %1 for the order #%2.","订单 #%2 共赚取了 %1。",module,Mirasvit_Rewards
-"Cancel earned %1 for the order #%2.","取消订单 #%2 取消了 %1。",module,Mirasvit_Rewards
+"Points Summary","累计积分奖赏",module,Mirasvit_Rewards
+"You have <b>%1</b> in your account.","你目前共有 <b>%1</b>",module,Mirasvit_Rewards
+"You have","您共有",module,Mirasvit_Rewards
+"Transactions History","积分记录",module,Mirasvit_Rewards
+"Points","积分",module,Mirasvit_Rewards
+Created,创建日,module,Mirasvit_Rewards
+"Expires","到期日",module,Mirasvit_Rewards
+"There are no Transactions.","您没有积分记录",module,Mirasvit_Rewards
+"Your points balance will expire in %1 days.","您的积分将会于%1日内过期",module,Mirasvit_Rewards
+"Visit My Reward Points Section","跳至的的我的积分",module,Mirasvit_Rewards
+Login to earn %1 for sharing!,Login to earn %1 for sharing!,module,Mirasvit_Rewards
+Earn %1 for sharing!,Earn %1 for sharing!,module,Mirasvit_Rewards
+Like this page and earn %1,Like this page and earn %1,module,Mirasvit_Rewards
+Plus this page and earn %1,Plus this page and earn %1,module,Mirasvit_Rewards
+Pin this page and earn %1,Pin this page and earn %1,module,Mirasvit_Rewards
+Refer Friends,介绍朋友,module,Mirasvit_Rewards
+Refer friend and earn %1. More friends more points!,Refer friend and earn %1. More friends more points!,module,Mirasvit_Rewards
+What's happening?,What's happening?,module,Mirasvit_Rewards
+Tweet,Tweet,module,Mirasvit_Rewards
+Tweet this page and earn %1,Tweet this page and earn %1,module,Mirasvit_Rewards
+Check this out!,Check this out!,module,Mirasvit_Rewards
+"You have <b>%1</b> available.","共有 <b>%1</b> 可用。",module,Mirasvit_Rewards
+"Enter amount of points to spend:","请输入要用的积分:",module,Mirasvit_Rewards
+"Enter amount of points to spend","请输入要用的积分",module,Mirasvit_Rewards
+"Use maximum %1","使用全部积分：%1分",module,Mirasvit_Rewards
+"Use maximum","使用全部",module,Mirasvit_Rewards
+"available.","可用。",module,Mirasvit_Rewards
+"available","可用",module,Mirasvit_Rewards
+"Apply Points","使用积分",module,Mirasvit_Rewards
+"Apply","使用",module,Mirasvit_Rewards
+"Cancel Points","取消积分使用",module,Mirasvit_Rewards
+"Cancel","取消",module,Mirasvit_Rewards
+Use Reward Points,使用积分,module,Mirasvit_Rewards
+Discount amount,Discount amount,module,Mirasvit_Rewards
+This is a required field,This is a required field,module,Mirasvit_Rewards
+Earning %1,Earning %1,module,Mirasvit_Rewards
+Earn %1,Earn %1,module,Mirasvit_Rewards
+Buy to earn %1,Buy to earn %1,module,Mirasvit_Rewards
+You'll earn %1 for this item,You'll earn %1 for this item,module,Mirasvit_Rewards
+"Share with Friends","分享给朋友",module,Mirasvit_Rewards
+"Share the referal link in the social media and get points!","分享以下连结给好友，齐齐赚取积分奖赏",module,Mirasvit_Rewards
+"Check this out!","快来看看!",module,Mirasvit_Rewards
+"Your referral link:","分享您的连结:",module,Mirasvit_Rewards
+"Send Invitations","发出邀请",module,Mirasvit_Rewards
+"Enter contacts of your friends to invite them.","请输入您朋友的电邮地址",module,Mirasvit_Rewards
+"Referrals","已推荐的好友",module,Mirasvit_Rewards
+Referred by link,Referred by link,module,Mirasvit_Rewards
+"There are no Referrals","没有我推荐的人",module,Mirasvit_Rewards
+Point Unit Name,Point Unit Name,module,Mirasvit_Rewards
+"Reward points expire after, days","Reward points expire after, days",module,Mirasvit_Rewards
+Approve earned points on invoice,Approve earned points on invoice,module,Mirasvit_Rewards
+Approve earned points on shipment,Approve earned points on shipment,module,Mirasvit_Rewards
+Approve earned points if order has status,Approve earned points if order has status,module,Mirasvit_Rewards
+Cancel earned points after order refunding,Cancel earned points after order refunding,module,Mirasvit_Rewards
+Restore spent points after order refunding,Restore spent points after order refunding,module,Mirasvit_Rewards
+Allow to earn points from shipping charges,Allow to earn points from shipping charges,module,Mirasvit_Rewards
+Allow to spend points for shipping charges,Allow to spend points for shipping charges,module,Mirasvit_Rewards
+Allow to place orders with grand total = 0,Allow to place orders with grand total = 0,module,Mirasvit_Rewards
+Email Sender,Email Sender,module,Mirasvit_Rewards
+Balance update Email,Balance update Email,module,Mirasvit_Rewards
+Points expire Email,Points expire Email,module,Mirasvit_Rewards
+Send notification before points expiring (in days),Send notification before points expiring (in days),module,Mirasvit_Rewards
+Enable Referral System,Enable Referral System,module,Mirasvit_Rewards
+Invitation Email Template,Invitation Email Template,module,Mirasvit_Rewards
+Show number of points on the product page,Show number of points on the product page,module,Mirasvit_Rewards
+Social Networks Settings,Social Networks Settings,module,Mirasvit_Rewards
+Show Facebook Like button,Show Facebook Like button,module,Mirasvit_Rewards
+Facebook App ID,Facebook App ID,module,Mirasvit_Rewards
+Show Twitter Follow button,Show Twitter Follow button,module,Mirasvit_Rewards
+Twitter Consumer Key,Twitter Consumer Key,module,Mirasvit_Rewards
+Twitter Consumer Secret,Twitter Consumer Secret,module,Mirasvit_Rewards
+Show Google Plus +1 button,Show Google Plus +1 button,module,Mirasvit_Rewards
+Show Pinterest pin button,Show Pinterest pin button,module,Mirasvit_Rewards
+"My Reward Points","我的积分",module,Mirasvit_Rewards
+"Earned %1 for the order #%2.","于订单 #%2 赚取了 %1。",module,Mirasvit_Rewards
+"Cancel earned %1 for the order #%2.","已取消使用订单 #%2 之 %1。",module,Mirasvit_Rewards
 "Spent %1 for the order #%2.","于订单 #%2 使用了 %1。",module,Mirasvit_Rewards
 "Restore spent %1 for the order #%2.","订单 #%2 返回了%1。",module,Mirasvit_Rewards
 "Insufficient funds in the account","帐户余额不足",module,Magedelight_Cybersourcesa
@@ -7782,8 +8057,10 @@ Delete,删除,module,Magento_Wishlist
 "Payment was canceled.","付款已取消",module,Magedelight_Cybersourcesa
 "Not Paid","未付款",module,Magedelight_Cybersourcesa
 "Go To Product","前往产品",module,WeltPixel_Quickview
+"Continue Shopping","继续购物",module,WeltPixel_Quickview
+"Go To Checkout","立即结账",module,WeltPixel_Quickview
 "My Membership Area","会员专区",module,Magestore_Membership
-"My Packages","我的会籍",module,Magestore_Membership
+"My Packages","基本会员 / VIB会员",module,Magestore_Membership
 "Expired Date","到期日",module,Magestore_Membership
 "Purchased Product Qty","已买产品数量",module,Magestore_Membership
 "Saved Total","已节省",module,Magestore_Membership
@@ -7928,7 +8205,7 @@ Dictionary successfully processed.,module,Mirasvit_Search
 Products,"产品",module,Mirasvit_SearchAutocomplete
 "Popular suggestions","热门推介",module,Mirasvit_SearchAutocomplete
 "Show all %1 results →","显示全部 %1 个结果 →",module,Mirasvit_SearchAutocomplete
-"Sorry, nothing found for ""%1"".","对不起, ""%1"" 找不到东西。",module,Mirasvit_SearchAutocomplete
+"Sorry, nothing found for ""%1"".","找不到""%1""相关产品",module,Mirasvit_SearchAutocomplete
 "Searchable content","可搜寻的内䆟",module,Mirasvit_SearchAutocomplete
 Search,"搜寻",module,Mirasvit_SearchAutocomplete
 "Search Autocomplete","搜寻自动推介",module,Mirasvit_SearchAutocomplete
