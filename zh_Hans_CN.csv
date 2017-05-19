@@ -6627,6 +6627,7 @@ Payment,付款,module,Magento_Checkout
 "Not yet calculated",尚未计算,module,Magento_Checkout
 "We received your order!",我们收到您的订单!,module,Magento_Checkout
 "Thank you for your purchase!",感谢您的购买！ ,module,Magento_Checkout
+"Create account","同时注册会员",module,Magento_Checkout
 "Content Management",内容管理,module,Magento_Cms
 "CMS Home Page","CMS 的主页",module,Magento_Cms
 "CMS No Route Page","CMS 无路由页面",module,Magento_Cms
@@ -8032,8 +8033,8 @@ Restore spent points after order refunding,Restore spent points after order refu
 Allow to earn points from shipping charges,Allow to earn points from shipping charges,module,Mirasvit_Rewards
 Allow to spend points for shipping charges,Allow to spend points for shipping charges,module,Mirasvit_Rewards
 Allow to place orders with grand total = 0,Allow to place orders with grand total = 0,module,Mirasvit_Rewards
-Email Sender,Email Sender,module,Mirasvit_Rewards
-Balance update Email,Balance update Email,module,Mirasvit_Rewards
+Email Sender,电邮发送人,module,Mirasvit_Rewards
+Balance update Email,结算更新电邮,module,Mirasvit_Rewards
 Points expire Email,Points expire Email,module,Mirasvit_Rewards
 Send notification before points expiring (in days),Send notification before points expiring (in days),module,Mirasvit_Rewards
 Enable Referral System,Enable Referral System,module,Mirasvit_Rewards
