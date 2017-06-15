@@ -2063,6 +2063,7 @@ Save,储存,module,Magento_Customer
 "Registered Customers",已注册会员,module,Magento_Customer
 "If you have an account, sign in with your email address.",如果您已注册成为会员，请使用电邮地址登入。 ,module,Magento_Customer
 Password,密码,module,Magento_Customer
+"Password Strength","密码强度",module,Magento_Customer
 "Forgot Your Password?",您忘记密码了吗?,module,Magento_Customer
 "Subscription option",订阅电子报,module,Magento_Customer
 "General Subscription",确认订阅,module,Magento_Customer
@@ -3127,7 +3128,7 @@ Shipping,运费,module,Magento_Payment
 "The capture action is not available.",抓捕行动不是可用的。 ,module,Magento_Payment
 "The refund action is not available.",退款操作不可用。 ,module,Magento_Payment
 "The void action is not available.",无效的行动不是可用的。 ,module,Magento_Payment
-"The payment review action is unavailable.",付款审查行动是不可用的。 ,module,Magento_Payment
+"The payment review action is unavailable.",付款评论暂不可用。 ,module,Magento_Payment
 "The credit card number doesn't match the credit card type.",信用卡号码，信用卡类型不匹配。 ,module,Magento_Payment
 "Invalid Credit Card Number",无效的信用卡卡号,module,Magento_Payment
 "This credit card type is not allowed for this payment method.",对于此付款方式不允许此信用卡类型。 ,module,Magento_Payment
@@ -3785,20 +3786,20 @@ Error,错误,module,Magento_Reports
 "Recently Compared",最近比较,module,Magento_Reports
 "Learn More",了解更多,module,Magento_Reports
 "Save Review",保存评价,module,Magento_Review
-"New Review",新的审查,module,Magento_Review
+"New Review",新的评论,module,Magento_Review
 "Review Details",查看详细信息,module,Magento_Review
 Product,产品,module,Magento_Review
 "Product Rating",产品评级,module,Magento_Review
 Status,状态,module,Magento_Review
 Visibility,可见性,module,Magento_Review
 Nickname,昵称,module,Magento_Review
-"Summary of Review",审查的摘要,module,Magento_Review
+"Summary of Review",评论摘要,module,Magento_Review
 Review,产品评价,module,Magento_Review
 Previous,上一个,module,Magento_Review
 "Save and Previous",保存和以前,module,Magento_Review
 "Save and Next",保存和下一步,module,Magento_Review
 Next,下一个,module,Magento_Review
-"Delete Review",删除审查,module,Magento_Review
+"Delete Review",删除评论,module,Magento_Review
 "Are you sure you want to do this?",您确认要这么做么？ ,module,Magento_Review
 "Edit Review '%1'","编辑审阅 '%1'",module,Magento_Review
 "<a href=""%1"" onclick=""this.target='blank'"">%2 %3</a> <a href=""mailto:%4"">(%4) </a>","<a href=""%1""onclick=""this.target='blank'"">%2 %3</a><a href=""mailto:%4" "> () %4</a>",module,Magento_Review
@@ -3841,16 +3842,16 @@ Websites,网站,module,Magento_Review
 "Product Reviews",产品评论,module,Magento_Review
 "Pending product review(s)",挂起的产品请稍后再试,module,Magento_Review
 "Product: <a href=""%1"" target=""_blank"">%2</a> <br/>","产品: <a href=""%1""target="" _blank"">%2</a> <br/>",module,Magento_Review
-"Summary of review: %1 <br/>","摘要的审查: %1 <br/>",module,Magento_Review
+"Summary of review: %1 <br/>","评论: %1 <br/>",module,Magento_Review
 "Review: %1 <br/>","评论: %1 <br/>",module,Magento_Review
 "Store: %1 <br/>","存储: %1 <br/>",module,Magento_Review
 "Click <a href=""%1"">here</a> to see the review.","按<a href=""%1""> 这里</a> 来见到的检讨。 ",module,Magento_Review
-"Product: ""%1"" reviewed by: %2","产品:""%1""由审查: %2",module,Magento_Review
+"Product: ""%1"" reviewed by: %2","产品:""%1""由评论: %2",module,Magento_Review
 "Pending Reviews RSS","待定评论 RSS",module,Magento_Review
 "Reviews %1","点评 %1",module,Magento_Review
 Reviews,点评,module,Magento_Review
-"The review has been deleted.",审查已被删除。 ,module,Magento_Review
-"Something went wrong deleting this review.",出了错删去这一审查。 ,module,Magento_Review
+"The review has been deleted.",评论已被删除。 ,module,Magento_Review
+"Something went wrong deleting this review.",删除评论出现错误。 ,module,Magento_Review
 "Customer Reviews",客户评论,module,Magento_Review
 "Edit Review",编辑审阅,module,Magento_Review
 "We can't retrieve the product ID.","我们无法检索产品 id。",module,Magento_Review
@@ -3859,14 +3860,14 @@ Reviews,点评,module,Magento_Review
 "Something went wrong while deleting these records.",在删除这些记录时，出了错。 ,module,Magento_Review
 "A total of %1 record(s) have been updated.","已经更新 %1的记录",module,Magento_Review
 "Something went wrong while updating these review(s).",在更新这些请稍后再试时出了错。 ,module,Magento_Review
-"You saved the review.",您保存的审查。 ,module,Magento_Review
-"Something went wrong while saving this review.",保存此审查时出了错。 ,module,Magento_Review
+"You saved the review.",您保存的评论。 ,module,Magento_Review
+"Something went wrong while saving this review.",保存此评论时出现错误。 ,module,Magento_Review
 "The review was removed by another user or does not exist.",检讨由另一个用户删除或不存在。 ,module,Magento_Review
 "You deleted the rating.",您删除的评级。 ,module,Magento_Review
 Ratings,评级,module,Magento_Review
 "You saved the rating.",您保存的评级。 ,module,Magento_Review
 "My Product Reviews",我的产品评论,module,Magento_Review
-"You submitted your review for moderation.",您提交您审查为适度。 ,module,Magento_Review
+"You submitted your review for moderation.",您已提交评论供审核。 ,module,Magento_Review
 "We can't post your review right now.",我们现在不能发表您的评论。 ,module,Magento_Review
 "Storage key was not set",未设置存储键,module,Magento_Review
 Approved,已批准,module,Magento_Review
@@ -3874,7 +3875,7 @@ Pending,待付款,module,Magento_Review
 "Not Approved",未获批准,module,Magento_Review
 "Please enter a review summary.",请输入回顾性总结。 ,module,Magento_Review
 "Please enter a nickname.",请输入昵称。 ,module,Magento_Review
-"Please enter a review.",请输入一次审查。 ,module,Magento_Review
+"Please enter a review.",请输入评论。 ,module,Magento_Review
 "Rating isn't Available",评级不是可用,module,Magento_Review
 "Please specify a rating title for a store, or we'll just use the default value.",请指定一个评级标题为一家商店，或者我们只是将使用默认值。 ,module,Magento_Review
 "Assigned Options",指派的选项,module,Magento_Review
@@ -3891,8 +3892,8 @@ Back,后退,module,Magento_Review
 "Your Review",您的评论,module,Magento_Review
 "Submitted on %1","在 %1 上提交",module,Magento_Review
 "Back to My Reviews",回到我的评论,module,Magento_Review
-"Ratings Review Summary",分级审查摘要,module,Magento_Review
-"Be the first to review this product",成为第一个审查此产品,module,Magento_Review
+"Ratings Review Summary",分级评论摘要,module,Magento_Review
+"Be the first to review this product",成为第一个评论此产品,module,Magento_Review
 "Write Your Own Review",编写您自己的评论,module,Magento_Review
 "* Required Fields",*必需填写,module,Magento_Review
 "You're reviewing:",您正在查看:,module,Magento_Review
@@ -3901,12 +3902,12 @@ Summary,用户中心,module,Magento_Review
 "Submit Review",提交的评论,module,Magento_Review
 "Add Your Review",添加您的评论,module,Magento_Review
 "%1 Review(s)","%1 请稍后再试",module,Magento_Review
-"Review by",通过审查,module,Magento_Review
+"Review by",评论来自,module,Magento_Review
 "Posted on",张贴在,module,Magento_Review
 "Back to Main Product Info",回到主产品信息,module,Magento_Review
 "Average Customer Rating",平均客户评级,module,Magento_Review
 "Product Rating:",产品评级:,module,Magento_Review
-"Product Review (submitted on %1):","产品审查 (提交的关于 %1):",module,Magento_Review
+"Product Review (submitted on %1):","产品评论 (提交的关于 %1):",module,Magento_Review
 "Back to Product Reviews",回到产品评论,module,Magento_Review
 "Page not found.",找不到网页。 ,module,Magento_Rss
 Feed,"RSS 订阅源",module,Magento_Rss
@@ -4490,7 +4491,7 @@ Processing,处理中,module,Magento_Sales
 Complete,完成,module,Magento_Sales
 Closed,已关闭,module,Magento_Sales
 "Suspected Fraud",涉嫌的欺诈,module,Magento_Sales
-"Payment Review",付款的审查,module,Magento_Sales
+"Payment Review",付款的评论,module,Magento_Sales
 New,新建,module,Magento_Sales
 "test message",测试消息,module,Magento_Sales
 "Email has not been sent",尚未发送电子邮件,module,Magento_Sales
@@ -8237,7 +8238,7 @@ Appearance,Appearance,module,Mirasvit_SearchAutocomplete
 "Login successfully. Please wait...","登入成功，请稍后…",module,Mageplaza_Osc
 "Create account","同时注册会员",module,Mageplaza_Osc
 "Already have an account? Click here to login","已注册会员请在此登入",module,Mageplaza_Osc
-"Register for newsletter", "订阅最新优惠",module,Mageplaza_Osc
+"Register for newsletter", "订阅最新优惠资讯",module,Mageplaza_Osc
 "Comments","意见",module,Mageplaza_Osc
 Information,资讯,module,Mirasvit_Search
 "OR",或,module,Plumrocket_SocialLoginPro
