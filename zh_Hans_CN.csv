@@ -3203,7 +3203,7 @@ Sales,销售,module,Magento_Paypal
 "Billing Agreement # %1","计费协议 # %1",module,Magento_Paypal
 "We can't initialize Express Checkout.",我们不能初始化快速结账。 ,module,Magento_Paypal
 "PayPal Express Checkout Token does not exist.",贝宝表示签出令牌并不存在。 ,module,Magento_Paypal
-"A wrong PayPal Express Checkout Token is specified.",指定了一个错误的支付宝快捷结账令牌。 ,module,Magento_Paypal
+"A wrong PayPal Express Checkout Token is specified.",指定了一个错误的PayPal快捷结账令牌。 ,module,Magento_Paypal
 "Express Checkout and Order have been canceled.",快速结账和订单已被取消。 ,module,Magento_Paypal
 "Express Checkout has been canceled.",快速结账已取消,module,Magento_Paypal
 "Unable to cancel Express Checkout",不能取消快速结账,module,Magento_Paypal
@@ -3219,10 +3219,10 @@ Sales,销售,module,Magento_Paypal
 "Would you like to sign a billing agreement to streamline further purchases with PayPal?",您想签账单的协议，以进一步精简与贝宝购买吗?,module,Magento_Paypal
 "Error processing payment, please try again later.",错误处理付款，请稍后再试。 ,module,Magento_Paypal
 "Payment Gateway is unreachable at the moment. Please use another payment option.",目前，支付网关是遥不可及。请使用另一种付款方式。 ,module,Magento_Paypal
-"PayPal response hasn't required fields.",支付宝回应并没有要求领域。 ,module,Magento_Paypal
+"PayPal response hasn't required fields.",PayPal回应并没有要求领域。 ,module,Magento_Paypal
 "Something went wrong while processing your order.",在处理您的订单时，出了错。 ,module,Magento_Paypal
-"PayPal gateway has rejected request. %1","支付宝网关拒绝了请求。% 1",module,Magento_Paypal
-"The PayPal gateway rejected the request. %1","支付宝网关拒绝了请求。% 1",module,Magento_Paypal
+"PayPal gateway has rejected request. %1","PayPal网关拒绝了请求。%1",module,Magento_Paypal
+"The PayPal gateway rejected the request. %1","PayPal网关拒绝了请求。%1",module,Magento_Paypal
 "I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.",我很抱歉-但我们也不能够处理您的付款。请尝试另一种付款方式或与我们联系，以便我们可以协助您。 ,module,Magento_Paypal
 "I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.",我很抱歉-但我们不能够完成您的交易。请与我们联系，以便我们可以协助您。 ,module,Magento_Paypal
 "The payment method code is not set.",未设置付款方法代码。 ,module,Magento_Paypal
@@ -3232,13 +3232,13 @@ Active,活动,module,Magento_Paypal
 Canceled,已取消,module,Magento_Paypal
 "The customer ID is not set.","不设置客户 ID。",module,Magento_Paypal
 "The Billing Agreement status is not set.",不设置收费协议状态。 ,module,Magento_Paypal
-"The PayPal certificate does not exist.",支付宝证书不存在。 ,module,Magento_Paypal
-"We prefer PayPal (150 X 60)",我们更喜欢支付宝（150×60）,module,Magento_Paypal
-"We prefer PayPal (150 X 40)",我们更喜欢支付宝（150×40）,module,Magento_Paypal
-"Now accepting PayPal (150 X 60)",现在接受支付宝（150×60）,module,Magento_Paypal
-"Now accepting PayPal (150 X 40)",现在接受支付宝（150×40）,module,Magento_Paypal
-"Payments by PayPal (150 X 60)","支付宝（150 X 60）",module,Magento_Paypal
-"Payments by PayPal (150 X 40)","支付宝（150 X 40）",module,Magento_Paypal
+"The PayPal certificate does not exist.",PayPal证书不存在。 ,module,Magento_Paypal
+"We prefer PayPal (150 X 60)",我们更喜欢PayPal（150×60）,module,Magento_Paypal
+"We prefer PayPal (150 X 40)",我们更喜欢PayPal（150×40）,module,Magento_Paypal
+"Now accepting PayPal (150 X 60)",现在接受PayPal（150×60）,module,Magento_Paypal
+"Now accepting PayPal (150 X 40)",现在接受PayPal（150×40）,module,Magento_Paypal
+"Payments by PayPal (150 X 60)","PayPal（150 X 60）",module,Magento_Paypal
+"Payments by PayPal (150 X 40)","PayPal（150 X 40）",module,Magento_Paypal
 "Shop now using (150 X 60)","店铺现在使用 (150 × 60)",module,Magento_Paypal
 "Shop now using (150 X 40)","店铺现在使用 (150 × 40)",module,Magento_Paypal
 Dynamic,动态,module,Magento_Paypal
@@ -3261,7 +3261,7 @@ Never,永不,module,Magento_Paypal
 "We'll authorize the amount of %1 as soon as the payment gateway approves it.","我们将授权 %1 的量，尽快支付网关批准它。",module,Magento_Paypal
 "The authorized amount is %1.","授权的金额是 %1。",module,Magento_Paypal
 "The maximum number of child authorizations is reached.",达到了子授权的最大数目。 ,module,Magento_Paypal
-"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.",支付宝不能处理订单与一零平衡。要完成您的购买，请通过标准结账过程。 ,module,Magento_Paypal
+"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.",PayPal不能处理订单与一零平衡。要完成您的购买，请通过标准结账过程。 ,module,Magento_Paypal
 "A payer is not identified.",不确定的付款人。 ,module,Magento_Paypal
 "Cannot get secure form URL from PayPal","无法从 PayPal 安全窗体的 URL",module,Magento_Paypal
 "Last Transaction ID","最后的交易 ID",module,Magento_Paypal
@@ -3270,7 +3270,7 @@ Never,永不,module,Magento_Paypal
 "The payment eCheck is not cleared.",支付电子支票是不会被清除。 ,module,Magento_Paypal
 "The merchant holds a non-U.S. account and doesn't have a withdrawal mechanism.",商人持有非美国帐户，并没有退出机制。 ,module,Magento_Paypal
 "The payment currency doesn't match any of the merchant's balances currency.",付款币种不匹配任何商人的余额的货币。 ,module,Magento_Paypal
-"The payment is pending while it is being reviewed by PayPal for risk.",该付款正在等待，而它正在审查通过支付宝的风险。 ,module,Magento_Paypal
+"The payment is pending while it is being reviewed by PayPal for risk.",该付款正在等待，而它正在审查通过PayPal的风险。 ,module,Magento_Paypal
 "The payment is pending because it was made to an email address that is not yet registered or confirmed.",该付款正在等待，因为它是由一个电子邮件地址，尚未登记或确认。 ,module,Magento_Paypal
 "The merchant account is not yet verified.",商人帐户尚未证明。 ,module,Magento_Paypal
 "The payment was made via credit card. In order to receive funds merchant must upgrade account to Business or Premier status.",通过信用卡付款。为了得到资金商人必须升级帐户到业务或总理的地位。 ,module,Magento_Paypal
@@ -3280,8 +3280,8 @@ Never,永不,module,Magento_Paypal
 "A reversal has occurred on this transaction due to a complaint about the transaction from your customer.",从您的客户交易投诉此交易发生了逆转。 ,module,Magento_Paypal
 "A reversal has occurred on this transaction because you have given the customer a refund.",因为您给客户退款这笔交易上出现逆转。 ,module,Magento_Paypal
 "Reversal of an adjustment.",逆转的调整。 ,module,Magento_Paypal
-"Transaction reversal due to fraud detected by PayPal administrators.",由于支付宝管理人员检测到的欺诈交易。 ,module,Magento_Paypal
-"Transaction reversal by PayPal administrators.",通过支付宝管理员的交易撤销。 ,module,Magento_Paypal
+"Transaction reversal due to fraud detected by PayPal administrators.",由于PayPal管理人员检测到的欺诈交易。 ,module,Magento_Paypal
+"Transaction reversal by PayPal administrators.",通过PayPal管理员的交易撤销。 ,module,Magento_Paypal
 "Reimbursement for a chargeback.",报销费用分摊。 ,module,Magento_Paypal
 "Settlement of a chargeback.",存储容量使用计费结算。 ,module,Magento_Paypal
 "A reversal has occurred on this transaction because of a customer dispute suspecting unauthorized spoof.",这笔交易因怀疑未经授权的欺骗客户纠纷发生了逆转。 ,module,Magento_Paypal
@@ -3383,7 +3383,7 @@ Debit,借记卡,module,Magento_Paypal
 "ACH Deposit (Reversal)","ACH 存款 (逆转)",module,Magento_Paypal
 "ACH Funding for Funds Recovery from Account Balance","ACH 经费账户结余资金回收",module,Magento_Paypal
 "ACH Withdrawal","ACH 撤出",module,Magento_Paypal
-"Account-to-Account Payment, initiated by PayPal",账户支付，由支付宝发起,module,Magento_Paypal
+"Account-to-Account Payment, initiated by PayPal",账户支付，由PayPal发起,module,Magento_Paypal
 "Auction Payment other than through eBay","其他比通过 eBay 的拍卖付款",module,Magento_Paypal
 "Available Balance",可用余额,module,Magento_Paypal
 "Balance Manager Account Bonus",平衡管理器帐户奖金,module,Magento_Paypal
@@ -3424,7 +3424,7 @@ Funding,资金,module,Magento_Paypal
 "General: temporary hold of a type not belonging to the other T15xx categories","一般情况: 暂时冻结不属于其他 T15xx 类别类型的",module,Magento_Paypal
 "Gift Certificate Payment: purchase of Gift Certificate","礼品证书付款: 购买的礼品证书",module,Magento_Paypal
 "Gift Certificate Redemption",礼品券兑换,module,Magento_Paypal
-"Hidden Virtual PayPal Debit Card Transaction",隐藏虚拟支付宝借记卡交易,module,Magento_Paypal
+"Hidden Virtual PayPal Debit Card Transaction",隐藏虚拟PayPal借记卡交易,module,Magento_Paypal
 "Hold for Dispute Investigation",为纠纷调查举行,module,Magento_Paypal
 Incentive,激励,module,Magento_Paypal
 "Mass Pay Payment",大体积付付款,module,Magento_Paypal
@@ -5235,7 +5235,7 @@ Remove,删除,module,Magento_Theme
 "For the best experience on our site, be sure to turn on Javascript in your browser.","在我们的网站上获得最佳体验，请务必打开 Javascript 在您的浏览器。",module,Magento_Theme
 "Local Storage seems to be disabled in your browser.",本地存储似乎在您的浏览器中禁用。 ,module,Magento_Theme
 "For the best experience on our site, be sure to turn on Local Storage in your browser.",在我们的网站上获得最佳体验，请务必打开本地存储在您的浏览器。 ,module,Magento_Theme
-"This is demo store. No orders will be fulfilled.",这是演示店铺。没有订单将会完成。 ,module,Magento_Theme
+"This is demo store. No orders will be fulfilled.",这是示范网店。订单不会被处理。 ,module,Magento_Theme
 "Items %1 to %2 of %3 total","项目 %1 到 %2 共%3 ",module,Magento_Theme
 "%1 Item","%1 项目",module,Magento_Theme
 "%1 Item(s)","%1 项目",module,Magento_Theme
