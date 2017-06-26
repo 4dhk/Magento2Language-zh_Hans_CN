@@ -5898,11 +5898,11 @@ Password:,密码:,module,Magento_Customer
 "There was recently a request to change the password for your account.",最近被更改为您的帐户密码的请求。 ,module,Magento_Customer
 "If you requested this change, set a new password here:",如果您要求此更改，在这里设置一个新密码:,module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.",如果您并没有提出这一请求，您可以忽略这封电子邮件，您的密码将保持不变。 ,module,Magento_Customer
-"Checkout out as a new customer",签出了作为一个新的客户,module,Magento_Customer
+"Checkout out as a new customer",注册成为新客户,module,Magento_Customer
 "Creating an account has many benefits:",创建帐户有很多好处:,module,Magento_Customer
-"See order and shipping status",请参阅顺序和传送状态,module,Magento_Customer
-"Track order history",跟踪订单历史记录,module,Magento_Customer
-"Check out faster",更快地查阅,module,Magento_Customer
+"See order and shipping status",查看订单和送货状态,module,Magento_Customer
+"Track order history",追踪订单记录,module,Magento_Customer
+"Check out faster",快速结帐,module,Magento_Customer
 "Checkout out using your account",使用您的帐户结账,module,Magento_Customer
 "Email Address",电邮地址,module,Magento_Customer
 "Change Email and Password","更改电邮及密码",module,Magento_Customer
@@ -6629,6 +6629,7 @@ Payment,付款,module,Magento_Checkout
 "Not yet calculated",尚未计算,module,Magento_Checkout
 "We received your order!",我们收到您的订单!,module,Magento_Checkout
 "Thank you for your purchase!",感谢您的购买！,module,Magento_Checkout
+"Return location",归还地点,module,Magento_Checkout
 "Content Management",内容管理,module,Magento_Cms
 "CMS Home Page","CMS 的主页",module,Magento_Cms
 "CMS No Route Page","CMS 无路由页面",module,Magento_Cms
