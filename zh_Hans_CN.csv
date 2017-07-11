@@ -443,7 +443,7 @@ Country,国家,module,Magento_Braintree
 Authorize,授权,module,Magento_Braintree
 "Authorize and Capture",授权和获取,module,Magento_Braintree
 "--Please Select--","-- 请选择 --",module,Magento_Braintree
-"Please agree to all the terms and conditions before placing the order.",请在下订单前同意所有的条款和条件。 ,module,Magento_Braintree
+"Please agree to all the terms and conditions before placing the order.",请在下订单前同意所有的条款及细则。 ,module,Magento_Braintree
 "Credit Card Type",卡片验证号码,module,Magento_Braintree
 "Credit Card Number",信用卡卡号,module,Magento_Braintree
 "Please, enter valid Credit Card Number",请输入有效的信用卡号码,module,Magento_Braintree
@@ -1285,13 +1285,13 @@ Show,显示,module,Magento_Catalog
 Loading...,"加载 。。。",module,Magento_Catalog
 "* Required Fields",*必需填写,module,Magento_Catalog
 Availability,库存,module,Magento_Catalog
-"Terms and Conditions",条款和条件,module,Magento_CheckoutAgreements
+"Terms and Conditions",条款及细则,module,Magento_CheckoutAgreements
 "Add New Condition",添加新的条件,module,Magento_CheckoutAgreements
 "Save Condition",保存条件,module,Magento_CheckoutAgreements
 "Delete Condition",删除条件,module,Magento_CheckoutAgreements
-"Edit Terms and Conditions",编辑的条款和条件,module,Magento_CheckoutAgreements
-"New Terms and Conditions",新的条款和条件,module,Magento_CheckoutAgreements
-"Terms and Conditions Information",条款和条件的信息,module,Magento_CheckoutAgreements
+"Edit Terms and Conditions",编辑的条款及细则,module,Magento_CheckoutAgreements
+"New Terms and Conditions",新的条款及细则,module,Magento_CheckoutAgreements
+"Terms and Conditions Information",条款及细则的信息,module,Magento_CheckoutAgreements
 "Condition Name",条件名称,module,Magento_CheckoutAgreements
 Status,状态,module,Magento_CheckoutAgreements
 Enabled,启动,module,Magento_CheckoutAgreements
@@ -1317,7 +1317,7 @@ Sales,销售,module,Magento_CheckoutAgreements
 "Something went wrong while saving this condition.",这种情况在保存时出了错。 ,module,Magento_CheckoutAgreements
 Automatically,自动,module,Magento_CheckoutAgreements
 Manually,手动,module,Magento_CheckoutAgreements
-"Please agree to all the terms and conditions before placing the order.",请在下订单前同意所有的条款和条件。 ,module,Magento_CheckoutAgreements
+"Please agree to all the terms and conditions before placing the order.",请在下订单前同意所有的条款及细则。 ,module,Magento_CheckoutAgreements
 "Unable to save checkout agreement %1","无法保存结账协议 %1",module,Magento_CheckoutAgreements
 "Unable to remove checkout agreement %1","无法删除结账协议 %1",module,Magento_CheckoutAgreements
 "Checkout agreement with specified ID ""%1"" not found.","结账协议具有指定 ID""%1""找不到。",module,Magento_CheckoutAgreements
@@ -1351,7 +1351,7 @@ State/Province,地区,module,Magento_Checkout
 "Guest checkout is disabled.",禁用了来宾结账。 ,module,Magento_Checkout
 Checkout,结账,module,Magento_Checkout
 "Page not found.",找不到网页。 ,module,Magento_Checkout
-"Please agree to all the terms and conditions before placing the order.",请在下订单前同意所有的条款和条件。 ,module,Magento_Checkout
+"Please agree to all the terms and conditions before placing the order.",请在下订单前同意所有的条款及细则。 ,module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.",在处理您的订单时，出了错。请稍后再试。 ,module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 不延长 \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
 "We can't find the product.",我们找不到该产品,module,Magento_Checkout
@@ -1684,8 +1684,8 @@ Name,名字,module,Magento_Contact
 Email,电邮,module,Magento_Contact
 "Phone Number",电话号码,module,Magento_Contact
 "What’s on your mind?",您的想法是什么?,module,Magento_Contact
-"Contact Details",联络详情,module,Magento_Contact
 Submit,提交,module,Magento_Contact
+"Contact Details",联络详情,module,Magento_Contact
 "Invalid domain name: %1","无效的域名: %1",module,Magento_Cookie
 "Invalid cookie lifetime: %1","无效的 cookie 的生命周期: %1",module,Magento_Cookie
 "Invalid cookie path","无效的 cookie 路径",module,Magento_Cookie
@@ -2897,7 +2897,7 @@ Total,总额,module,Magento_Multishipping
 "Create Shipping Address",创建送货地址,module,Magento_Multishipping
 "Data saving problem",数据保存的问题,module,Magento_Multishipping
 "We cannot open the overview page.",我们不能打开概述页。 ,module,Magento_Multishipping
-"Please agree to all Terms and Conditions before placing the order.",请在下订单前同意所有的条款和条件。 ,module,Magento_Multishipping
+"Please agree to all Terms and Conditions before placing the order.",请在下订单前同意所有的条款及细则。 ,module,Magento_Multishipping
 "Order place error",顺序位置误差,module,Magento_Multishipping
 "Maximum qty allowed for Shipping to multiple addresses is %1","允许发货到多个地址的最大数量是 %1",module,Magento_Multishipping
 "Please check shipping address information.",请检查送货地址信息。 ,module,Magento_Multishipping
@@ -3208,7 +3208,7 @@ Sales,销售,module,Magento_Paypal
 "Express Checkout and Order have been canceled.",快速结账和订单已被取消。 ,module,Magento_Paypal
 "Express Checkout has been canceled.",快速结账已取消,module,Magento_Paypal
 "Unable to cancel Express Checkout",不能取消快速结账,module,Magento_Paypal
-"Please agree to all the terms and conditions before placing the order.",请在下订单前同意所有的条款和条件。 ,module,Magento_Paypal
+"Please agree to all the terms and conditions before placing the order.",请在下订单前同意所有的条款及细则。 ,module,Magento_Paypal
 "We can't place the order.",我们不能下订单。 ,module,Magento_Paypal
 "We can't process Express Checkout approval.",我们不能处理快速结账审批。 ,module,Magento_Paypal
 "We can't initialize Express Checkout review.",我们不能初始化快速结账审查。 ,module,Magento_Paypal
@@ -5848,7 +5848,7 @@ Remove,删除,module,Magento_Checkout
 "Please specify the shipping address to see available options.","请选填写地址，然后选择运送方法。",module,Magento_Checkout
 "Some products are only suitable for delivery services (including: trolleys, trolley kits, school chair, dining chair, car safety seats, bed, play mats, etc.), please pay attention to the product page.","部份货品只适用于送货服务（包括：手推车、手推车套装、学行椅、餐椅、汽车安全座椅、睡床、游玩地垫等），敬请留意产品页面。",module,Magento_Checkout
 "Please carefully choose the shipping method and clearly fill in the delivery address, otherwise it will delay the entire delivery process and affect the delivery time.","请小心选择运送方法及清楚填写送货地址，否则将耽误整个送货流程及影响送货时间。",module,Magento_Checkout
-"I have read and agreed to the Terms & Conditions.","我已阅读并同意条款和条件。",module,Magento_Checkout
+"I have read and agreed to the Terms & Conditions.","我已阅读并同意条款及细则。",module,Magento_Checkout
 "EF Locker","顺便智能柜",module,Magento_Checkout
 "SF Store","顺丰站",module,Magento_Checkout
 "Service Type","服务种类",module,Magento_Checkout
@@ -6603,7 +6603,7 @@ Disable,禁用,module,Magento_Catalog
 none,没有,module,Magento_Catalog
 Overview,概述,module,Magento_Catalog
 Details,产品详情,module,Magento_Catalog
-"Enable Terms and Conditions",启用的条款和条件,module,Magento_CheckoutAgreements
+"Enable Terms and Conditions",启用的条款及细则,module,Magento_CheckoutAgreements
 "Checkout Options",结账选项,module,Magento_Checkout
 "Enable Onepage Checkout",使用同一页面结账,module,Magento_Checkout
 "Allow Guest Checkout",允许游客结账,module,Magento_Checkout
